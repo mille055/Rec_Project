@@ -1,4 +1,3 @@
 This is the readme
 
-
->![img.jpg](assets/itunes_podcast.png)
+>![img.jpg](assets/data_skeptic_logo.jpeg)
