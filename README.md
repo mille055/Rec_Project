@@ -1,3 +1,6 @@
 This is the readme
 
->![img.jpg](assets/duke360.jpeg)
+>![img.jpg]{
+   width:150px;
+   height:100px;
+} (assets/duke360.jpeg)
