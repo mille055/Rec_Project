@@ -1,0 +1,1282 @@
+<!doctype html><html class="no-js" lang="en"><head><!-- OneTrust Cookies Consent Notice start for npr.org -->
+<script type="text/javascript" src="https://cdn.cookielaw.org/consent/82089dfe-410c-4e1b-a7f9-698174b62a86/OtAutoBlock.js" ></script>
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="82089dfe-410c-4e1b-a7f9-698174b62a86" ></script>
+
+<script type="text/javascript">
+function OptanonWrapper() {
+    NPR_OptanonWrapper = true;
+    document.dispatchEvent(new CustomEvent('npr:DataConsentAvailable'));
+    
+    OneTrust.OnConsentChanged(function() {
+        document.dispatchEvent(new CustomEvent('npr:DataConsentChanged'));
+    });
+ }
+</script>
+<!-- OneTrust Cookies Consent Notice end for npr.org -->
+<script src="https://cdn.cookielaw.org/opt-out/otCCPAiab.js" type="text/javascript" charset="UTF-8" ccpa-opt-out-ids="C0004" ccpa-opt-out-geo="us" ccpa-opt-out-lspa="false"></script><script type="text/plain" class="optanon-category-C0004">
+    document.cookie = "__adblocker=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+    var setNptTechAdblockerCookie = function(adblocker) {
+        var d = new Date();
+        d.setTime(d.getTime() + 60 * 5 * 1000);
+        document.cookie = "__adblocker=" + (adblocker ? "true" : "false") + "; expires=" + d.toUTCString() + "; path=/";
+    };
+    var script = document.createElement("script");
+    script.setAttribute("async", true);
+    script.setAttribute("src", "//www.npttech.com/advertising.js");
+    script.setAttribute("onerror", "setNptTechAdblockerCookie(true);");
+    document.getElementsByTagName("head")[0].appendChild(script);
+</script><script type='text/javascript'>
+  !function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
+
+  // initialize apstag and have apstag set bids on the googletag slots when they are returned to the page
+  window.apstag.init({
+    pubID: '5116',
+    adServer: 'googletag',
+    bidTimeout: 1000,
+    deals: true,
+  });
+</script><script>
+(function (e, o, n, i) {
+    if (!e) {
+        e = e || {}, window.permutive = e, e.q = [];
+        var t = function () {
+            return ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, function (e) {
+                return (e ^ (window.crypto || window.msCrypto).getRandomValues(new Uint8Array(1))[0] & 15 >> e / 4).toString(16)
+            })
+        };
+        e.config = i || {}, e.config.apiKey = o, e.config.workspaceId = n, e.config.environment = e.config.environment || "production", (window.crypto || window.msCrypto) && (e.config.viewId = t());
+        for (var g = ["addon", "identify", "track", "trigger", "query", "segment", "segments", "ready", "on", "once", "user", "consent"], r = 0; r < g.length; r++) {
+            var w = g[r];
+            e[w] = function (o) {
+                return function () {
+                    var n = Array.prototype.slice.call(arguments, 0);
+                    e.q.push({functionName: o, arguments: n})
+                };
+            }(w);
+        }
+    }
+})(window.permutive, "12730e07-f09d-4a69-93da-99b43983b663", "e1cef1f0-495f-4973-ba1c-880786e73a66", {"consentRequired": true});
+</script>
+
+
+<!--
+
+nnnnnnnnnnnnnnnnnn ppppppppppppppppppp rrrrrrrrrrrrrrrrrr
+nnnnnnnnnnnnnnnnnn ppppppppppppppppppp rrrrrrrrrrrrrrrrrr
+nnn         nnnnnn ppp          pppppp rrr           rrrr
+nnn   nnnn    nnnn ppp   pppppp   pppp rrr   rrrrrr   rrr
+nnn   nnnnnn   nnn ppp   ppppppp   ppp rrr   rrrrrrrrrrrr
+nnn   nnnnnn   nnn ppp   ppppp    pppp rrr   rrrrrrrrrrrr
+nnn   nnnnnn   nnn ppp           ppppp rrr   rrrrrrrrrrrr
+nnn   nnnnnn   nnn ppp   ppppppppppppp rrr   rrrrrrrrrrrr
+nnnnnnnnnnnnnnnnnn ppp   ppppppppppppp rrrrrrrrrrrrrrrrrr
+nnnnnnnnnnnnnnnnnn ppppppppppppppppppp rrrrrrrrrrrrrrrrrr
+
+We are hiring!
+
+https://n.pr/tech-jobs
+
+-->
+
+
+<script>dataLayer = [];</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.setAttributeNode(d.createAttribute('data-ot-ignore'));j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer', 'GTM-MVD397M');</script>
+<!-- End Google Tag Manager -->
+<script>
+   try {var _sf_startpt=(new Date()).getTime();} catch(e){}
+</script>
+<meta itemscope itemtype="https://schema.org/SpeakableSpecification" itemref="speakable" /><title>The best podcasts to listen to before the new year : NPR</title><meta id="speakable" itemprop="cssSelector" content="[data-is-speakable]" /><meta id="google-site-verification" name="google-site-verification" content="1VqzbDm4ukeFVHOoq5LjIKA2fVKZD-EYv8cXZhKXSfU" /><meta charset="utf-8" /><meta name="robots" content="noarchive,index,follow,max-image-preview:large" /><meta name="apple-itunes-app" content="app-id=324906251, app-argument=https://www.npr.org/2022/12/27/1145598590/bingeable-podcasts-2022-npr" /><meta name="Rating" content="General" /><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /><meta name="npr-pjax" /><meta name="date" content="2022-12-27" /><link rel="canonical" href="https://www.npr.org/2022/12/27/1145598590/bingeable-podcasts-2022-npr" /><meta name="description" content="Before we kick off a new year, here are some of our favorite podcasts from 2022 for your listening enjoyment! " /><link rel="alternate" type="application/rss+xml" title="Culture" href="https://feeds.npr.org/1008/rss.xml" /><link rel="alternate" type="application/json" title="Culture" href="https://feeds.npr.org/feeds/1008/feed.json" /><meta name="cXenseParse:pageclass" content="article" /><meta name="cXenseParse:publishtime" content="2022-12-27T11:02:21-05:00" /><meta name="cXenseParse:author" content="The NPR One Team" /><link rel="apple-touch-icon" sizes="180x180" href="https://static-assets.npr.org/static/images/favicon/favicon-180x180.png" /><link rel="icon" sizes="96x96" href="https://static-assets.npr.org/static/images/favicon/favicon-96x96.png" /><link rel="icon" sizes="32x32" href="https://static-assets.npr.org/static/images/favicon/favicon-32x32.png" /><link rel="icon" sizes="16x16" href="https://static-assets.npr.org/static/images/favicon/favicon-16x16.png" /><meta property="og:title" content="15 binge-worthy podcasts to check out before 2023" /><meta property="og:url" content="https://www.npr.org/2022/12/27/1145598590/bingeable-podcasts-2022-npr" /><meta property="og:type" content="article" /><meta property="og:description" content="Before we kick off a new year, here are some of our favorite podcasts from 2022 for your listening enjoyment! " /><meta property="og:image" content="https://media.npr.org/assets/img/2022/12/27/collage-jpg_wide-7185bb0dccc75afe76b0f099daf7b7b96ff414ec-s1400-c100.jpg" /><meta property="og:site_name" content="NPR" /><meta property="fb:app_id" content="138837436154588" /><meta property="fb:pages" content="10643211755" /><meta property="article:content_tier" content="free" /><meta property="article:opinion" content="false" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="15 binge-worthy podcasts to check out before 2023" /><meta name="twitter:site" content="@NPR" /><meta name="twitter:domain" content="npr.org" /><meta name="twitter:image:src" content="https://media.npr.org/assets/img/2022/12/27/collage-jpg_wide-7185bb0dccc75afe76b0f099daf7b7b96ff414ec-s1400-c100.jpg" /><script id="npr-vars">
+   window.NPR = window.NPR || {};
+NPR.ServerConstants = {"cbHost":"npr.org","webHost":"https:\/\/www.npr.org","legacyWebHost":"https:\/\/legacy.npr.org","stripeServiceHost":"https:\/\/stripe.npr.org","recaptchaV3SiteKey":"6LcdN9IZAAAAAOHT985BJjbzjkBjKSxdxK3GeKSt","placesApiKey":"AIzaSyB_wzlXPVwS4kHRAZsM6scMzUAIsJ6aMZ4","embedHost":"https:\/\/www.npr.org","webHostSecure":"https:\/\/secure.npr.org","identityHost":"https:\/\/identity.api.npr.org","apiHost":"https:\/\/api.npr.org","environment":"prod","serverMediaCache":"https:\/\/media.npr.org","googleAnalyticsAccount":"UA-5828686-4","gtmKey":"GTM-MVD397M","nielsenSFCode":"dcr","nielsenAPN":"NPR-dcr","shouldShowHPLocalContent":true,"cookieDomain":".npr.org","organizationV4Host":"https:\/\/organization.api.npr.org"};
+NPR.serverVars = {"storyId":"1145598590","isHiring":true,"facebookAppId":"138837436154588","webpackPublicPath":"https:\/\/bundles.npr.org\/dist\/bundles\/","persistenceVersion":"68c68651fbed2f60f6703b8eacc2c4c8","isBuildOut":true,"topicIds":["P1008","1002"],"primaryTopic":"Culture","topics":["Culture","Culture","Home Page Top Stories"],"theme":"1008","aggIds":["1002","1008","434975886","1068304478","1148220230"],"byline":["The NPR One Team"],"contentPartnerOrgFullName":"1 | NPR","pubDate":"2022122711","fullPubDate":"Tue, 27 Dec 2022 11:02:21 -0500","pageTypeId":"1","title":"15 binge-worthy podcasts to check out before 2023","publisherOrgId":"1"};
+</script>
+<script type="text/javascript" src="https://static-assets.npr.org/static/javascript/lib/modernizr/modernizr.custom.js">
+   </script>
+<script type="text/javascript" async src="https://js.stripe.com/v3/">
+   </script>
+<script>
+   !function(e){function r(r){for(var t,c,o=r[0],d=r[1],u=r[2],i=0,l=[];i<o.length;i++)c=o[i],Object.prototype.hasOwnProperty.call(n,c)&&n[c]&&l.push(n[c][0]),n[c]=0;for(t in d)Object.prototype.hasOwnProperty.call(d,t)&&(e[t]=d[t]);for(b&&b(r);l.length;)l.shift()();return f.push.apply(f,u||[]),a()}function a(){for(var e,r=0;r<f.length;r++){for(var a=f[r],t=!0,o=1;o<a.length;o++){var d=a[o];0!==n[d]&&(t=!1)}t&&(f.splice(r--,1),e=c(c.s=a[0]))}return e}var t={},n={0:0},f=[];function c(r){if(t[r])return t[r].exports;var a=t[r]={i:r,l:!1,exports:{}};return e[r].call(a.exports,a,a.exports,c),a.l=!0,a.exports}c.e=function(e){var r=[],a=n[e];if(0!==a)if(a)r.push(a[2]);else{var t=new Promise((function(r,t){a=n[e]=[r,t]}));r.push(a[2]=t);var f,o=document.createElement("script");o.charset="utf-8",o.timeout=120,c.nc&&o.setAttribute("nonce",c.nc),o.src=function(e){return c.p+""+e+"."+{1:"40025d77ae5045900343",2:"65f01ed42dd7e870ecac",3:"1d116ff6194568877379",4:"1f32fbfa59d20a73c2a0",5:"a0095dc97f0c1de514fb",6:"8c73c4652d1e8ea123db",7:"2ab7d57f90d84396e3fa",8:"18d9c7ee7f22ced5a73c",73:"7df76ae1cbd2906963c6",74:"9dea46b28510eaae0e73",75:"bc603d326f1af2eb67ab",76:"156b8b04cbe66a37a080",77:"a3a88bcb95d003e5fb0d",78:"f9610613875e310f1e05",79:"18d4215d829b33f33e6e",80:"812566ab3c0c53c01bf6",81:"088520b7c8659f0660b3",82:"77a7df6fa75cfaefffad",83:"f62b50ec2801522aedd8",84:"2ddb775021a13c88aad9",85:"aaf9c67cb19b9345a272",86:"6d4113d390973a2e1e39",87:"e9d329b5a8738034cb4f",88:"671f24e8e5d297361e17",89:"c2e37b8c36b8392f75f5",90:"5d9a58d8209c8c61ee16",91:"9129102b24400ad8e52f",92:"11f03ac87f82593a9e6c",93:"827a498af314ab4ea0aa",94:"e5a2c7702d946aa75272",95:"2e820211c73511a6ff1b",96:"a1cd6e75de11fe1cbff2",97:"fc54386dd398c0190eb6",98:"a62986cbfb580236ceca",99:"9d56f64f17f9485792f9",100:"00982efd9fb6122f4542",101:"eea1e2ddc3eb18bbacb8",102:"a472bb3100f30ba94637"}[e]+".chunk.js"}(e);var d=new Error;f=function(r){o.onerror=o.onload=null,clearTimeout(u);var a=n[e];if(0!==a){if(a){var t=r&&("load"===r.type?"missing":r.type),f=r&&r.target&&r.target.src;d.message="Loading chunk "+e+" failed.\n("+t+": "+f+")",d.name="ChunkLoadError",d.type=t,d.request=f,a[1](d)}n[e]=void 0}};var u=setTimeout((function(){f({type:"timeout",target:o})}),12e4);o.onerror=o.onload=f,document.head.appendChild(o)}return Promise.all(r)},c.m=e,c.c=t,c.d=function(e,r,a){c.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:a})},c.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},c.t=function(e,r){if(1&r&&(e=c(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var a=Object.create(null);if(c.r(a),Object.defineProperty(a,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var t in e)c.d(a,t,function(r){return e[r]}.bind(null,t));return a},c.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return c.d(r,"a",r),r},c.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},c.p="/dist/bundles/",c.oe=function(e){throw console.error(e),e};var o=window.webpackJsonp=window.webpackJsonp||[],d=o.push.bind(o);o.push=r,o=o.slice();for(var u=0;u<o.length;u++)r(o[u]);var b=d;a()}([]);
+</script>
+<script type="text/javascript" src="https://bundles.npr.org/dist/bundles/33.e732cd5010dd8ad2daa6.chunk.js">
+   </script>
+<link rel="stylesheet" data-persist="true" media="screen, print" href="https://bundles.npr.org/dist/bundles/persistent-css-c28bae42686b093cdd73.css" /><link rel="stylesheet" data-persist="true" media="screen and (min-width: 768px)" href="https://bundles.npr.org/dist/bundles/persistent_medium-css-c28bae42686b093cdd73.css" /><link rel="stylesheet" data-persist="true" media="screen and (min-width: 1025px)" href="https://bundles.npr.org/dist/bundles/persistent_large-css-c28bae42686b093cdd73.css" /><link rel="preload" data-persist="true" media="screen, print" href="https://bundles.npr.org/dist/bundles/fonts-css-c28bae42686b093cdd73.css" as="style" onload="this.onload=null;this.rel='stylesheet'"  /><link rel="stylesheet" media="screen, print" href="https://bundles.npr.org/dist/bundles/newsStory-css-c28bae42686b093cdd73.css" /><script type="application/ld+json">
+   {"@type":"NewsArticle","publisher":{"@type":"Organization","name":"NPR","logo":{"@type":"ImageObject","url":"https:\/\/media.npr.org\/chrome\/npr-logo.jpg"}},"headline":"15 binge-worthy podcasts to check out before 2023","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/www.npr.org\/2022\/12\/27\/1145598590\/bingeable-podcasts-2022-npr"},"datePublished":"2022-12-27T11:02:21-05:00","dateModified":"2022-12-27T11:02:21-05:00","author":{"@type":"Person","name":["The NPR One Team"]},"description":"Before we kick off a new year, here are some of our favorite podcasts from 2022 for your listening enjoyment! ","image":[{"@type":"ImageObject","url":"https:\/\/media.npr.org\/assets\/img\/2022\/12\/27\/collage-jpg_slide-4fff3648686c7894bae7be52b74e19eb97386859.jpg"},{"@type":"ImageObject","url":"https:\/\/media.npr.org\/assets\/img\/2022\/12\/27\/_dsf0347-2_sq-0fb349068a14e0ea86c0c2a3491beba69a1cff5b.jpg"},{"@type":"ImageObject","url":"https:\/\/media.npr.org\/assets\/img\/2022\/12\/27\/soundside_custom-63a8719b151568646adba0c5dddced8ec8038aa5.jpg"},{"@type":"ImageObject","url":"https:\/\/media.npr.org\/assets\/img\/2022\/12\/27\/last-cup_custom-ebdda7225cb7d4fd6e76ba980c497691b1c943d3.jpg"},{"@type":"ImageObject","url":"https:\/\/media.npr.org\/assets\/img\/2022\/12\/27\/embedded_custom-954c0457dd4b0815c8401e2b67ddc43a10545dee.jpg"},{"@type":"ImageObject","url":"https:\/\/media.npr.org\/assets\/img\/2022\/12\/27\/life-kit_custom-e9fb323f949a4c4ecb946b59f5fad61a5f129d19.jpg"},{"@type":"ImageObject","url":"https:\/\/media.npr.org\/assets\/img\/2022\/12\/27\/invisi_custom-eb3e593a2d3a143d4f0d7e2e6c81df3dea6da69d.jpg"},{"@type":"ImageObject","url":"https:\/\/media.npr.org\/assets\/img\/2022\/12\/27\/the-walk-home_custom-4cbf6b69a44e3033b58cd5f77cc1d2c151a8a4c2.jpg"},{"@type":"ImageObject","url":"https:\/\/media.npr.org\/assets\/img\/2022\/12\/27\/bear-brook_custom-02c9dd11a0a50ec8a62c9963b1b5a8e9af549b16.jpg"},{"@type":"ImageObject","url":"https:\/\/media.npr.org\/assets\/img\/2022\/12\/27\/ezgif.com-gif-maker_custom-b375060d6ff5ec62faaf1ab03e2f08309245d040.jpg"},{"@type":"ImageObject","url":"https:\/\/media.npr.org\/assets\/img\/2022\/12\/27\/side-door_custom-1201f533ef300ce2c59b59bd5f837016da55bc4d.jpg"},{"@type":"ImageObject","url":"https:\/\/media.npr.org\/assets\/img\/2022\/12\/27\/tpr_custom-f0ac186e05ff420cce4fe1a0db98439873f03c90.jpg"},{"@type":"ImageObject","url":"https:\/\/media.npr.org\/assets\/img\/2022\/12\/27\/wbez_custom-ee341cbb6c9a40ddd02690845342794cae396e0a.jpg"},{"@type":"ImageObject","url":"https:\/\/media.npr.org\/assets\/img\/2022\/12\/27\/cpr_custom-0e8984b9bcd7c76750de3324026b1353ca4de448.jpg"},{"@type":"ImageObject","url":"https:\/\/media.npr.org\/assets\/img\/2022\/12\/27\/ezgif.com-gif-maker-1-_custom-098f484e56364217aa1f2dc239488153c55ba214.jpg"},{"@type":"ImageObject","url":"https:\/\/media.npr.org\/assets\/img\/2022\/12\/27\/last-seen_custom-fb7b36e458022d21a0cb9d5d116d49e2b01c329a.jpg"},{"@type":"ImageObject","url":"https:\/\/media.npr.org\/assets\/img\/2022\/12\/27\/wabe_custom-775059b74497749c9e0c4b6782cd495c4f86a336.jpg"}],"@context":"http:\/\/schema.org"}
+</script>
+<script type="text/javascript">
+   document.domain="www.npr.org";
+</script>
+<script id="piano-aid" type="text/javascript" data-piano-aid="9ENxKQ58pu">
+    (function(src) {
+        var a = document.createElement("script");
+        a.type = "text/javascript";
+        a.async = true;
+        a.src = src;
+        var b = document.getElementsByTagName("script")[0];
+        b.parentNode.insertBefore(a, b)
+    })("//cdn.piano.io/api/tinypass.min.js");
+    
+    window.pdl = window.pdl || {};
+    window.pdl.requireConsent = true;
+    
+    tp = window.tp || [];
+</script>
+                              <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="MBVDT-3L9KY-36ZMJ-SPSAR-JR833",function(){function e(){if(!o){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,i.parentNode.appendChild(e),o=!0}}function t(e){o=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(i.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",i.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"MBVDT-3L9KY-36ZMJ-SPSAR-JR833";var i=document.currentScript||document.getElementsByTagName("script")[0],o=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!o)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),i.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="dcrv4saxadsjizblnnra-f-87391a4b8-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,o={"ak.v":"34","ak.cp":"55818","ak.ai":parseInt("290690",10),"ak.ol":"0","ak.cr":102,"ak.ipv":4,"ak.proto":"h2","ak.rid":"7bdf429f","ak.r":40940,"ak.a2":n,"ak.m":"dscf","ak.n":"essl","ak.bpcip":"24.163.94.0","ak.cport":49217,"ak.gh":"23.34.58.214","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"","ak.t":"1680567138","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==y1PTJ1q6CvKj2RmmjDKx/4w4bFgfRzR15dDgjTBFhttxiUe7gVYIVyTXeM4Tf4r4xyqoFISpFrBC2xn5R0TiyWynnYmbEVVDqQaLDKVGMM986hD8P8dKXJJEn70+kLuoeiJxBND8JY+oVPYFyGkNInqWcwMX10GXzlFdOHwdrsL2otlCHXwoefeK+fHjRtRPqZihvW4GHpSjDBD+VFWZrGSk+bYIMdxK4YAbmm+jjr9G5DvtshavaiHUSWqJ5I39aiB5ylGewrv3gdFAK5vmxnQev4Ugq2bR1DFhmf+wx122EWXgdeGKKqahBKXryeDgK/6qvEIMWeQkur12L3NSq/izP44fTUbUquXISYV0hnaMD0uTk5LQ1u9deFPi9xfKUYERb15oRobWFz//0dN2pmvwmJNscMYnE8nKPDl6TIU=","ak.pv":"78","ak.dpoabenc":"","ak.tf":i};if(""!==t)o["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))o["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(o)},rv:function(){var e=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:o,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head><body id="news" class="news tmplNewsStory  story-layout is-buildout no-transcript has-no-branding id1145598590  " data-pjax-modules="util/env images/lazy-load data-consent data-management-platform header-bidding metrics nielsen nielsenDCR copyright auto-refresh navigation/global-navigation fitvids googletag dfp globalfooter persistent-audio player/more-options player/audio-module-clickable what-input metrics/doubleclickFloodlight callout/on-page-callouts global-alerts we-are-hiring piano ecommerce recommendations/end-of-story-recommendations-callout jw social/share slideshow images/enlargement contentfooter story/date-tooltip social/sharepop podcast-cards search/faceting-param local/newsletter/callout social/recaptcha">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MVD397M" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="skip-links">
+      <span>Accessibility links</span>   <ul>
+            <li><a href="#mainContent" class="skiplink">Skip to main content</a></li>
+      <li><a href="https://help.npr.org/contact/s/article?name=what-are-the-keyboard-shortcuts-for-using-the-npr-org-audio-player" class="skiplink">Keyboard shortcuts for audio player</a></li>
+   </ul>
+</div>
+<header class="npr-header" id="globalheader" aria-label="NPR header">
+<nav class="navigation">
+    <div class="navigation__top-level-wrap" data-metrics-all data-metrics-category="global navigation" data-metrics-category-ga4="recirculation">
+        <ul class="navigation__top-level">
+            <li class="navigation__toggle-wrap">
+                <button id="navigation__toggle--open" class="navigation__toggle navigation__toggle--open" aria-haspopup="true" aria-expanded="false" data-metrics-action="open navigation menu" data-metrics-ga4='{"action":"global_navigation_click","clickName":"open navigation menu","clickType":"global navigation"}'>
+                    Open Navigation Menu
+                </button>
+            </li>
+
+            <li class="navigation__home">
+                <a href="/" data-metrics-action="click npr logo" data-metrics-ga4='{"action":"global_navigation_click","clickName":"npr logo","clickType":"global navigation","clickUrl":"\/"}'>
+                    <img src="https://media.npr.org/chrome_svg/npr-logo.svg" alt="NPR logo"/>
+                </a>
+            </li>
+
+            <li id="navigation__station-mount"></li>
+
+            <li id="user-account-dropdown-mount" class="navigation__account"></li>
+
+            <li class="navigation__shop">
+                <a href="https://shopnpr.org" data-metrics-action="click npr shop" data-metrics-ga4='{"action":"global_navigation_click","clickName":"npr shop","clickType":"global navigation","clickUrl":"https://shopnpr.org"}'>NPR Shop</a>
+            </li>
+
+            <li id="navigation__station-donate-mount"></li>
+        </ul>
+    </div>
+    <section id="main-menu" class="menu menu--main" data-metrics-all data-metrics-category="global navigation" data-metrics-category-ga4="recirculation">
+        <div class="menu__inner">
+            <header class="menu__header">
+                <button id="navigation__toggle--close" class="navigation__toggle navigation__toggle--close" aria-haspopup="true" aria-expanded="true" data-metrics-action="close navigation menu" data-metrics-ga4='{"action":"global_navigation_click","clickName":"close navigation menu","clickType":"global navigation"}'>>
+                    Close <span>Navigation Menu</span>
+                </button>
+            </header>
+            <ul class="menu__list">
+                <li class="menu__item menu__item--home">
+                    <div class="menu__item-inner"><a href="/" data-metrics-action="click npr logo" data-metrics-ga4='{"action":"global_navigation_click","clickName":"npr logo","clickType":"global navigation","clickUrl":"\/"}'>Home</a></div>
+                </li>
+                <li class="menu__item menu__item--news menu__item--has-submenu">
+                    <div class="menu__item-inner">
+                        <a href="/sections/news/" data-metrics-action="click news" data-metrics-ga4='{"action":"global_navigation_click","clickName":"news","clickType":"global navigation","clickUrl":"/sections/news/"}'>News</a>
+                        <button class="menu__toggle-submenu" data-metrics-action="toggle news drawer" data-metrics-ga4='{"action":"global_navigation_click","clickName":"toggle news drawer","clickType":"global navigation"}'>Expand/collapse submenu for News</button>
+                    </div>
+
+                    <ul class="submenu submenu--news">
+                        <li class="submenu__item"><a href="/sections/national/" data-metrics-action="click national" data-metrics-ga4='{"action":"global_navigation_click","clickName":"national","clickType":"global navigation","clickUrl":"/sections/national/"}'>National</a></li>
+                        <li class="submenu__item"><a href="/sections/world/" data-metrics-action="click world" data-metrics-ga4='{"action":"global_navigation_click","clickName":"world","clickType":"global navigation","clickUrl":"/sections/world/"}'>World</a></li>
+                        <li class="submenu__item"><a href="/sections/politics/" data-metrics-action="click politics" data-metrics-ga4='{"action":"global_navigation_click","clickName":"politics","clickType":"global navigation","clickUrl":"/sections/politics/"}'>Politics</a></li>
+                        <li class="submenu__item"><a href="/sections/business/" data-metrics-action="click business" data-metrics-ga4='{"action":"global_navigation_click","clickName":"business","clickType":"global navigation","clickUrl":"/sections/business/"}'>Business</a></li>
+                        <li class="submenu__item"><a href="/sections/health/" data-metrics-action="click health" data-metrics-ga4='{"action":"global_navigation_click","clickName":"health","clickType":"global navigation","clickUrl":"/sections/health/"}'>Health</a></li>
+                        <li class="submenu__item"><a href="/sections/science/" data-metrics-action="click science" data-metrics-ga4='{"action":"global_navigation_click","clickName":"science","clickType":"global navigation","clickUrl":"/sections/science/"}'>Science</a></li>
+                        <li class="submenu__item"><a href="/sections/climate/" data-metrics-action="click climate" data-metrics-ga4='{"action":"global_navigation_click","clickName":"climate","clickType":"global navigation","clickUrl":"/sections/climate/"}'>Climate</a></li>
+                        <li class="submenu__item"><a href="/sections/codeswitch/" data-metrics-action="click race" data-metrics-ga4='{"action":"global_navigation_click","clickName":"race","clickType":"global navigation","clickUrl":"/sections/codeswitch/"}'>Race</a></li>
+                    </ul>
+                </li>
+                <li class="menu__item menu__item--culture menu__item--has-submenu">
+                    <div class="menu__item-inner">
+                        <a href="/sections/culture/" data-metrics-action="click culture" data-metrics-ga4='{"action":"global_navigation_click","clickName":"culture","clickType":"global navigation","clickUrl":"/sections/culture/"}'>Culture</a>
+                        <button class="menu__toggle-submenu" data-metrics-action="toggle culture drawer" data-metrics-ga4='{"action":"global_navigation_click","clickName":"toggle culture drawer","clickType":"global navigation"}'>Expand/collapse submenu for Culture</button>
+                    </div>
+
+                    <ul class="submenu submenu--culture">
+                        <li class="submenu__item"><a href="/books/" data-metrics-action="click books" data-metrics-ga4='{"action":"global_navigation_click","clickName":"books","clickType":"global navigation","clickUrl":"/books/"}'>Books</a></li>
+                        <li class="submenu__item"><a href="/sections/movies/" data-metrics-action="click movies" data-metrics-ga4='{"action":"global_navigation_click","clickName":"movies","clickType":"global navigation","clickUrl":"/sections/movies/"}'>Movies</a></li>
+                        <li class="submenu__item"><a href="/sections/television/" data-metrics-action="click television" data-metrics-ga4='{"action":"global_navigation_click","clickName":"television","clickType":"global navigation","clickUrl":"/sections/television/"}'>Television</a></li>
+                        <li class="submenu__item"><a href="/sections/pop-culture/" data-metrics-action="click pop culture" data-metrics-ga4='{"action":"global_navigation_click","clickName":"pop culture","clickType":"global navigation","clickUrl":"/sections/pop-culture/"}'>Pop Culture</a></li>
+                        <li class="submenu__item"><a href="/sections/food/" data-metrics-action="click food" data-metrics-ga4='{"action":"global_navigation_click","clickName":"food","clickType":"global navigation","clickUrl":"/sections/food/"}'>Food</a></li>
+                        <li class="submenu__item"><a href="/sections/art-design/" data-metrics-action="click art & design" data-metrics-ga4='{"action":"global_navigation_click","clickName":"art & design","clickType":"global navigation","clickUrl":"/sections/art-design/"}'>Art &amp; Design</a> </li>
+                        <li class="submenu__item"><a href="/sections/performing-arts/" data-metrics-action="click performing arts" data-metrics-ga4='{"action":"global_navigation_click","clickName":"performing arts","clickType":"global navigation","clickUrl":"/sections/performing-arts/"}'>Performing Arts</a></li>
+                        <li class="submenu__item"><a href="/lifekit/" data-metrics-action="click life kit" data-metrics-ga4='{"action":"global_navigation_click","clickName":"life kit","clickType":"global navigation","clickUrl":"/lifekit/"}'>Life Kit</a></li>
+                    </ul>
+                </li>
+                <li class="menu__item menu__item--music menu__item--has-submenu">
+                    <div class="menu__item-inner">
+                        <a href="/music/" data-metrics-action="click music" data-metrics-ga4='{"action":"global_navigation_click","clickName":"music","clickType":"global navigation","clickUrl":"/music/"}'>Music</a>
+                        <button class="menu__toggle-submenu" data-metrics-action="toggle music drawer" data-metrics-ga4='{"action":"global_navigation_click","clickName":"toggle music drawer","clickType":"global navigation"}'>Expand/collapse submenu for Music</button>
+                    </div>
+
+                    <ul class="submenu submenu--music"><li class="submenu__item">
+    <a href="https://www.npr.org/series/tiny-desk-concerts/" data-metrics-action="click tiny desk"  data-metrics-ga4='{"category":"recirculation","action":"global_navigation_click","clickName":"tiny desk","clickType":"music ecosystem navigation","clickUrl":"https:\/\/www.npr.org\/series\/tiny-desk-concerts\/"}' >
+        Tiny Desk
+    </a>
+</li><li class="submenu__item">
+    <a href="https://www.npr.org/series/1002643619/now-playing" data-metrics-action="click #nowplaying"  data-metrics-ga4='{"category":"recirculation","action":"global_navigation_click","clickName":"#nowplaying","clickType":"music ecosystem navigation","clickUrl":"https:\/\/www.npr.org\/series\/1002643619\/now-playing"}' >
+        #NowPlaying
+    </a>
+</li><li class="submenu__item">
+    <a href="https://www.npr.org/sections/allsongs/" data-metrics-action="click all songs considered"  data-metrics-ga4='{"category":"recirculation","action":"global_navigation_click","clickName":"all songs considered","clickType":"music ecosystem navigation","clickUrl":"https:\/\/www.npr.org\/sections\/allsongs\/"}' >
+        All Songs Considered
+    </a>
+</li><li class="submenu__item">
+    <a href="https://www.npr.org/sections/music-features" data-metrics-action="click music features"  data-metrics-ga4='{"category":"recirculation","action":"global_navigation_click","clickName":"music features","clickType":"music ecosystem navigation","clickUrl":"https:\/\/www.npr.org\/sections\/music-features"}' >
+        Music Features
+    </a>
+</li><li class="submenu__item">
+    <a href="https://www.npr.org/series/770565791/npr-music-live-sessions" data-metrics-action="click live sessions"  data-metrics-ga4='{"category":"recirculation","action":"global_navigation_click","clickName":"live sessions","clickType":"music ecosystem navigation","clickUrl":"https:\/\/www.npr.org\/series\/770565791\/npr-music-live-sessions"}' >
+        Live Sessions
+    </a>
+</li></ul>
+
+                </li>
+                <li class="menu__item menu__item--shows-podcasts menu__item--has-submenu">
+                    <div class="menu__item-inner">
+                        <a href="/podcasts-and-shows/" data-metrics-action="click podcasts & shows" data-metrics-ga4='{"action":"global_navigation_click","clickName":"podcasts & shows","clickType":"global navigation","clickUrl":"/podcasts-and-shows/"}'>Podcasts &amp; Shows</a>
+                        <button class="menu__toggle-submenu" data-metrics-action="toggle podcasts &amp; shows drawer" data-metrics-ga4='{"action":"global_navigation_click","clickName":"toggle podcasts &amp; shows drawer","clickType":"global navigation"}'>Expand/collapse submenu for Podcasts &amp; Shows</button>
+                    </div>
+
+                    <div class="submenu submenu--shows-podcasts">
+                        <span class="submenu__category submenu__category--daily">Daily</span>
+                        <ul class="submenu__list submenu__list--daily">
+                            <li class="submenu__item submenu__item--timed submenu__item--weekday hidden">
+                                <a href="/programs/morning-edition/" data-metrics-action="click morning edition" data-metrics-ga4='{"action":"global_navigation_click","clickName":"morning edition","clickType":"global navigation","clickUrl":"/programs/morning-edition/"}'>
+                                    <img src="https://media.npr.org/chrome/programs/logos/morning-edition.jpg" loading="lazy" alt="" />
+                                    Morning Edition
+                                </a>
+                            </li>
+                            <li class="submenu__item submenu__item--timed submenu__item--saturday hidden" >
+                                <a href="/programs/weekend-edition-saturday/" data-metrics-action="click weekend edition saturday" data-metrics-ga4='{"action":"global_navigation_click","clickName":"weekend edition saturday","clickType":"global navigation","clickUrl":"/programs/weekend-edition-saturday/"}'>
+                                    <img src="https://media.npr.org/assets/img/2019/02/26/we_otherentitiestemplatesat_sq-cbde87a2fa31b01047441e6f34d2769b0287bcd4-s100-c85.png" loading="lazy" alt="" />
+                                    Weekend Edition Saturday
+                                </a>
+                            </li>
+                            <li class="submenu__item submenu__item--timed submenu__item--sunday hidden">
+                                <a href="/programs/weekend-edition-sunday/" data-metrics-action="click weekend edition sunday" data-metrics-ga4='{"action":"global_navigation_click","clickName":"weekend edition sunday","clickType":"global navigation","clickUrl":"/programs/weekend-edition-sunday/"}'>
+                                    <img src="https://media.npr.org/assets/img/2019/02/26/we_otherentitiestemplatesun_sq-4a03b35e7e5adfa446aec374523a578d54dc9bf5-s100-c85.png" loading="lazy" alt="" />
+                                    Weekend Edition Sunday
+                                </a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="/programs/all-things-considered/" data-metrics-action="click all things considered" data-metrics-ga4='{"action":"global_navigation_click","clickName":"all things considered","clickType":"global navigation","clickUrl":"/programs/all-things-considered/"}'>
+                                    <img src="https://media.npr.org/chrome/programs/logos/all-things-considered.png" loading="lazy" alt="" />
+                                    All Things Considered
+                                </a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="/programs/fresh-air/" data-metrics-action="click fresh air" data-metrics-ga4='{"action":"global_navigation_click","clickName":"fresh air","clickType":"global navigation","clickUrl":"/programs/fresh-air/"}'>
+                                    <img src="https://media.npr.org/chrome/programs/logos/fresh-air.png" loading="lazy" alt="" />
+                                    Fresh Air
+                                </a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="/podcasts/510318/up-first/" data-metrics-action="click up first" data-metrics-ga4='{"action":"global_navigation_click","clickName":"up first","clickType":"global navigation","clickUrl":"/podcasts/510318/up-first/"}'>
+                                    <img src="https://media.npr.org/chrome/programs/logos/up-first.jpg?version=2" loading="lazy" alt="" />
+                                    Up First
+                                </a>
+                            </li>
+                        </ul>
+                        <span class="submenu__category submenu__category--featured">Featured</span>
+
+                        <ul class="submenu__list submenu__list--featured"><li class="submenu__item">
+    <a href="https://www.npr.org/podcasts/510368/taking-cover" data-metrics-action="click taking cover"  data-metrics-ga4='{"category":"recirculation","action":"global_navigation_click","clickName":"taking cover","clickType":"music ecosystem navigation","clickUrl":"https:\/\/www.npr.org\/podcasts\/510368\/taking-cover"}' >
+        <img src="https://media.npr.org/assets/img/2023/03/11/takingcover_final_sq-ffc9645406171f832e44717f71a072277edda564-s100-c100.jpg" data-original="https://media.npr.org/assets/img/2023/03/11/takingcover_final_sq-ffc9645406171f832e44717f71a072277edda564-s100.jpg"   class=" lazy" alt="" loading="lazy" />
+        Taking Cover
+    </a>
+</li><li class="submenu__item">
+    <a href="https://www.npr.org/podcasts/510357/louder-than-a-riot" data-metrics-action="click louder than a riot"  data-metrics-ga4='{"category":"recirculation","action":"global_navigation_click","clickName":"louder than a riot","clickType":"music ecosystem navigation","clickUrl":"https:\/\/www.npr.org\/podcasts\/510357\/louder-than-a-riot"}' >
+        <img src="https://media.npr.org/assets/img/2023/03/08/ltar_s2_tile_01_sq-19a778e240e99c795205cab72b2d6823001eb4af-s100-c100.png" data-original="https://media.npr.org/assets/img/2023/03/08/ltar_s2_tile_01_sq-19a778e240e99c795205cab72b2d6823001eb4af-s100.png"   class=" lazy" alt="" loading="lazy" />
+        Louder Than A Riot
+    </a>
+</li><li class="submenu__item">
+    <a href="https://www.npr.org/podcasts/510317/its-been-a-minute" data-metrics-action="click it's been a minute"  data-metrics-ga4='{"category":"recirculation","action":"global_navigation_click","clickName":"it&#39;s been a minute","clickType":"music ecosystem navigation","clickUrl":"https:\/\/www.npr.org\/podcasts\/510317\/its-been-a-minute"}' >
+        <img src="https://media.npr.org/assets/img/2023/02/27/ibam_tile-2023_sq-8be9968a8deb580001ff44c27f77dcc028095187-s100-c100.jpg" data-original="https://media.npr.org/assets/img/2023/02/27/ibam_tile-2023_sq-8be9968a8deb580001ff44c27f77dcc028095187-s100.jpg"   class=" lazy" alt="" loading="lazy" />
+        It's Been a Minute
+    </a>
+</li><li class="submenu__item">
+    <a href="https://www.npr.org/podcasts/510338/all-guides" data-metrics-action="click life kit"  data-metrics-ga4='{"category":"recirculation","action":"global_navigation_click","clickName":"life kit","clickType":"music ecosystem navigation","clickUrl":"https:\/\/www.npr.org\/podcasts\/510338\/all-guides"}' >
+        <img src="https://media.npr.org/assets/img/2022/09/23/life-kit_tile_npr-network-01_sq-200388bae100cab944ffa3655e7f3119e026d305-s100-c100.jpg" data-original="https://media.npr.org/assets/img/2022/09/23/life-kit_tile_npr-network-01_sq-200388bae100cab944ffa3655e7f3119e026d305-s100.jpg"   class=" lazy" alt="" loading="lazy" />
+        Life Kit
+    </a>
+</li></ul>
+
+                        <ul class="submenu__list submenu__list--directories">
+                            <li class="submenu__item"><a href="/podcasts-and-shows/" data-metrics-action="click podcasts & shows" data-metrics-ga4='{"action":"global_navigation_click","clickName":"podcasts & shows","clickType":"global navigation","clickUrl":"/podcasts-and-shows/"}'>More Podcasts &amp; Shows</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="menu__item menu__item--search">
+                    <div class="menu__item-inner">
+                        <a href="/search/" id="navigation_dropdown-search" data-metrics-action="click search" data-metrics-ga4='{"action":"global_navigation_click","clickName":"search","clickType":"global navigation","clickUrl":"/search/"}'>Search</a>
+                    </div>
+                </li>
+                <li id="user-account-dropdown-mount-two" class="menu__item menu__item--account"></li>
+                <li class="menu__item menu__item--shop">
+                    <div class="menu__item-inner">
+                        <a href="https://shopnpr.org" data-metrics-action="click npr shop" data-metrics-ga4='{"action":"global_navigation_click","clickName":"npr shop","clickType":"global navigation","clickUrl":"https://shopnpr.org"}'>NPR Shop</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="menu menu--music" data-metrics-all data-metrics-category="music ecosystem navigation" data-metrics-category-ga4="recirculation">
+        <div class="menu__list-wrap">
+            <ul class="menu__list menu__list--ecosystem menu__list--music">
+                <li class="menu__item menu__item--music-home">
+                    <a href="/music/" data-metrics-action="click npr music logo" data-metrics-ga4='{"action":"global_navigation_click","clickName":"npr music logo","clickType":"global navigation","clickUrl":"/music/"}'>
+                        <img src="https://media.npr.org/chrome_svg/music-logo-dark.svg" class="music-logo" alt="NPR Music" />
+                        <img src="https://media.npr.org/chrome_svg/music-logo-light.svg" class="music-logo-alt" alt="NPR Music" />
+                    </a>
+                </li>
+
+                <li class="menu__item">
+    <a href="https://www.npr.org/series/tiny-desk-concerts/" data-metrics-action="click tiny desk"  data-metrics-ga4='{"category":"recirculation","action":"global_navigation_click","clickName":"tiny desk","clickType":"music ecosystem navigation","clickUrl":"https:\/\/www.npr.org\/series\/tiny-desk-concerts\/"}' >
+        Tiny Desk
+    </a>
+</li><li class="menu__item">
+    <a href="https://www.npr.org/series/1002643619/now-playing" data-metrics-action="click #nowplaying"  data-metrics-ga4='{"category":"recirculation","action":"global_navigation_click","clickName":"#nowplaying","clickType":"music ecosystem navigation","clickUrl":"https:\/\/www.npr.org\/series\/1002643619\/now-playing"}' >
+        #NowPlaying
+    </a>
+</li><li class="menu__item">
+    <a href="https://www.npr.org/sections/allsongs/" data-metrics-action="click all songs considered"  data-metrics-ga4='{"category":"recirculation","action":"global_navigation_click","clickName":"all songs considered","clickType":"music ecosystem navigation","clickUrl":"https:\/\/www.npr.org\/sections\/allsongs\/"}' >
+        All Songs Considered
+    </a>
+</li><li class="menu__item">
+    <a href="https://www.npr.org/sections/music-features" data-metrics-action="click music features"  data-metrics-ga4='{"category":"recirculation","action":"global_navigation_click","clickName":"music features","clickType":"music ecosystem navigation","clickUrl":"https:\/\/www.npr.org\/sections\/music-features"}' >
+        Music Features
+    </a>
+</li><li class="menu__item">
+    <a href="https://www.npr.org/series/770565791/npr-music-live-sessions" data-metrics-action="click live sessions"  data-metrics-ga4='{"category":"recirculation","action":"global_navigation_click","clickName":"live sessions","clickType":"music ecosystem navigation","clickUrl":"https:\/\/www.npr.org\/series\/770565791\/npr-music-live-sessions"}' >
+        Live Sessions
+    </a>
+</li>
+            </ul>
+        </div>
+    </section>
+    <section class="menu menu--about" data-metrics-all data-metrics-category="about ecosystem navigation" data-metrics-category-ga4="recirculation">
+        <div class="menu__list-wrap">
+            <ul class="menu__list menu__list--ecosystem menu__list--about">
+                <li class="menu__item menu__item--about-home"><a href="/about/" data-metrics-action="click about npr" data-metrics-ga4='{"action":"global_navigation_click","clickName":"about npr","clickType":"about ecosystem navigation","clickUrl":"/about/"}'>About NPR</a></li>
+                <li class="menu__item menu__item--about-diversity"><a href="/diversity/" data-metrics-action="click diversity" data-metrics-ga4='{"action":"global_navigation_click","clickName":"diversity","clickType":"about ecosystem navigation","clickUrl":"/diversity/"}'>Diversity</a></li>
+                <li class="menu__item menu__item--about-organization"><a href="/organization/" data-metrics-action="click organization" data-metrics-ga4='{"action":"global_navigation_click","clickName":"organization","clickType":"about ecosystem navigation","clickUrl":"/organization/"}'>Organization</a></li>
+                <li class="menu__item menu__item--about-support"><a href="/support/" data-metrics-action="click support" data-metrics-ga4='{"action":"global_navigation_click","clickName":"support","clickType":"about ecosystem navigation","clickUrl":"/support/"}'>Support</a></li>
+                <li class="menu__item menu__item--about-careers"><a href="/careers/" data-metrics-action="click careers" data-metrics-ga4='{"action":"global_navigation_click","clickName":"careers","clickType":"about ecosystem navigation","clickUrl":"/careers/"}'>Careers</a></li>
+                <li class="menu__item menu__item--about-connect"><a href="/connect/" data-metrics-action="click connect" data-metrics-ga4='{"action":"global_navigation_click","clickName":"connect","clickType":"about ecosystem navigation","clickUrl":"/connect/"}'>Connect</a></li>
+                <li class="menu__item menu__item--about-press"><a href="/press/" data-metrics-action="click press" data-metrics-ga4='{"action":"global_navigation_click","clickName":"press","clickType":"about ecosystem navigation","clickUrl":"/press/"}'>Press</a></li>
+                <li class="menu__item menu__item--about-ethics"><a href="/ethics/" data-metrics-action="click ethics" data-metrics-ga4='{"action":"global_navigation_click","clickName":"ethics","clickType":"about ecosystem navigation","clickUrl":"/ethics/"}'>Ethics</a></li>
+            </ul>
+        </div>
+    </section>
+</nav>
+</header><main aria-label="main content"><div class="speakable">
+      <b data-is-speakable>The best podcasts to listen to before the new year</b>   <b data-is-speakable>Before we kick off a new year, here are some of our favorite podcasts from 2022 for your listening enjoyment! </b>
+</div>
+<div id="wrapper">
+      <header class="contentheader contentheader--one" data-metrics='{"category":"Culture"}' ></header>   <section id="main-section"><article class="story"><a id="mainContent"></a><div class="slug-wrap">
+
+    <h3 class="slug">
+        <a href="https://www.npr.org/sections/culture/">Culture</a>
+    </h3>
+</div>
+<div class="storytitle">
+      <h1>15 binge-worthy podcasts to check out before 2023</h1>
+   <input type="hidden" id="title1145598590" value="15 binge-worthy podcasts to check out before 2023" />
+   <input type="hidden" id="shortTitle1145598590" value="15 binge-worthy podcasts to check out before 2023" />
+   <input type="hidden" id="modelFullUrl1145598590" value="https://www.npr.org/2022/12/27/1145598590/bingeable-podcasts-2022-npr" />
+</div>
+
+<!-- END CLASS="STORYTITLE" -->
+<div class="story-tools">
+      <div class="share-tools share-tools--primary" aria-label="Share tools">
+            <ul>
+                  <li class="share-tools__service share-tools__service--facebook"><button class="fbStory1145598590" data-share-facebook='{"storyId": 1145598590 }'  data-metrics='{"action":"Click Facebook","category":"Share Tools","label":"https:\/\/www.npr.org\/2022\/12\/27\/1145598590\/bingeable-podcasts-2022-npr"}'   data-metrics-ga4='{"category":"share","action":"share","clickName":"facebook"}' ><b class="share-tools__service-name">Facebook</b></button></li>
+         <li class="share-tools__service share-tools__service--twitter"><button class="story1145598590" data-share-twitter='{"storyId": 1145598590 }'  data-metrics='{"action":"Click Twitter","category":"Share Tools","label":"https:\/\/www.npr.org\/2022\/12\/27\/1145598590\/bingeable-podcasts-2022-npr"}'   data-metrics-ga4='{"category":"share","action":"share","clickName":"twitter"}' ><b class="share-tools__service-name">Twitter</b></button></li>
+         <li class="share-tools__service share-tools__service--flipboard"><button class="story1145598590" data-share-flipboard='{"storyId": 1145598590 }'  data-metrics='{"action":"Click Flipboard","category":"Share Tools","label":"https:\/\/www.npr.org\/2022\/12\/27\/1145598590\/bingeable-podcasts-2022-npr"}'   data-metrics-ga4='{"category":"share","action":"share","clickName":"flipboard"}' ><b class="share-tools__service-name">Flipboard</b></button></li>
+         <li class="share-tools__service share-tools__service--email"><button class='share-tools__email-link' data-story-id='1145598590'  data-metrics='{"action":"Click Email a Friend","category":"Share Tools","label":"https:\/\/www.npr.org\/2022\/12\/27\/1145598590\/bingeable-podcasts-2022-npr"}'   data-metrics-ga4='{"category":"share","action":"share","clickName":"email"}' ><b class="share-tools__service-name">Email</b></button></li>
+      </ul>
+   </div>
+   
+<!-- END CLASS="SHARE-TOOLS SHARE-TOOLS--PRIMARY" ARIA-LABEL="SHARE TOOLS" -->
+</div>
+
+<!-- END CLASS="STORY-TOOLS" -->
+<div id="story-meta" class="story-meta has-byline">
+      <div class="story-meta__one">
+            <div class="story-meta__one-inner">
+                  <div class="dateblock">
+    <time datetime="2022-12-27T11:02:21-05:00">
+            <span class="date">December 27, 2022</span><span class="time">11:02 AM ET</span>
+    </time>
+</div>
+      </div>
+      
+<!-- END CLASS="STORY-META__ONE-INNER" -->
+   </div>
+   
+<!-- END CLASS="STORY-META__ONE" -->
+   <div class="story-meta__two">
+            <div id="storybyline" class="storybyline-wrap linkLocation">
+                  <div class="bucketwrap byline">
+                        <div class="byline-container--block">
+                              <p class="byline__name--block">By&nbsp;</p>               <div class="byline byline--block" aria-label="Byline">
+  <p class="byline__name byline__name--block">
+      The NPR One Team
+    
+  </p>
+</div>
+            </div>
+         </div>
+         
+<!-- END CLASS="BUCKETWRAP BYLINE" -->
+      </div>
+   </div>
+   
+<!-- END CLASS="STORY-META__TWO" -->
+</div>
+
+<!-- END ID="STORY-META" CLASS="STORY-META HAS-BYLINE" -->
+<div id="storytext" class="storytext storylocation linkLocation">
+      <div id="res1145604848" class="bucketwrap image large">
+            <div
+    class="imagewrap has-source-dimensions"
+    data-crop-type=""
+    style="
+        --source-width: 2994;
+        --source-height: 1996;
+    "
+>
+        <picture>
+            <source srcset="https://media.npr.org/assets/img/2022/12/27/collage-jpg_slide-4fff3648686c7894bae7be52b74e19eb97386859-s400-c85.webp 400w,
+https://media.npr.org/assets/img/2022/12/27/collage-jpg_slide-4fff3648686c7894bae7be52b74e19eb97386859-s600-c85.webp 600w,
+https://media.npr.org/assets/img/2022/12/27/collage-jpg_slide-4fff3648686c7894bae7be52b74e19eb97386859-s800-c85.webp 800w,
+https://media.npr.org/assets/img/2022/12/27/collage-jpg_slide-4fff3648686c7894bae7be52b74e19eb97386859-s900-c85.webp 900w,
+https://media.npr.org/assets/img/2022/12/27/collage-jpg_slide-4fff3648686c7894bae7be52b74e19eb97386859-s1200-c85.webp 1200w,
+https://media.npr.org/assets/img/2022/12/27/collage-jpg_slide-4fff3648686c7894bae7be52b74e19eb97386859-s1600-c85.webp 1600w,
+https://media.npr.org/assets/img/2022/12/27/collage-jpg_slide-4fff3648686c7894bae7be52b74e19eb97386859-s1800-c85.webp 1800w"  sizes="(min-width: 1300px) 763px, (min-width: 1025px) calc(100vw - 496px), (min-width: 768px) calc(100vw - 171px), calc(100vw - 30px)" class="img" type="image/webp" />
+            <source srcset="https://media.npr.org/assets/img/2022/12/27/collage-jpg_slide-4fff3648686c7894bae7be52b74e19eb97386859-s400-c85.jpg 400w,
+https://media.npr.org/assets/img/2022/12/27/collage-jpg_slide-4fff3648686c7894bae7be52b74e19eb97386859-s600-c85.jpg 600w,
+https://media.npr.org/assets/img/2022/12/27/collage-jpg_slide-4fff3648686c7894bae7be52b74e19eb97386859-s800-c85.jpg 800w,
+https://media.npr.org/assets/img/2022/12/27/collage-jpg_slide-4fff3648686c7894bae7be52b74e19eb97386859-s900-c85.jpg 900w,
+https://media.npr.org/assets/img/2022/12/27/collage-jpg_slide-4fff3648686c7894bae7be52b74e19eb97386859-s1200-c85.jpg 1200w,
+https://media.npr.org/assets/img/2022/12/27/collage-jpg_slide-4fff3648686c7894bae7be52b74e19eb97386859-s1600-c85.jpg 1600w,
+https://media.npr.org/assets/img/2022/12/27/collage-jpg_slide-4fff3648686c7894bae7be52b74e19eb97386859-s1800-c85.jpg 1800w"  sizes="(min-width: 1300px) 763px, (min-width: 1025px) calc(100vw - 496px), (min-width: 768px) calc(100vw - 171px), calc(100vw - 30px)" class="img" type="image/jpeg" />
+            <img src="https://media.npr.org/assets/img/2022/12/27/collage-jpg_slide-4fff3648686c7894bae7be52b74e19eb97386859-s1100-c50.jpg"  class="img" alt="Podcast slides" loading="lazy" />
+        </picture>
+        <div class="enlarge-options">
+            <a class="enlargelink" href="https://media.npr.org/assets/img/2022/12/27/collage-jpg_slide-4fff3648686c7894bae7be52b74e19eb97386859-s1200.jpg">Enlarge this image</a>
+        </div>
+</div>
+<div class="credit-caption">
+    <div class="caption-wrap">
+        <div class="caption" aria-label="Image caption">
+        </div>
+
+
+    </div>
+
+    <span class="credit" aria-label="Image credit">
+        
+        Courtesy of KPCC, KNKX, KCUR, WABE, NPR and TPR
+        
+    </span>
+</div>
+<div class="enlarge_measure">
+    <div class="img_wrap">
+        <picture>
+            <source data-original="https://media.npr.org/assets/img/2022/12/27/collage-jpg_slide-4fff3648686c7894bae7be52b74e19eb97386859-s1200.webp" type="image/webp">
+            <source data-original="https://media.npr.org/assets/img/2022/12/27/collage-jpg_slide-4fff3648686c7894bae7be52b74e19eb97386859-s1200.jpg" type="image/jpeg">
+            <img data-original="https://media.npr.org/assets/img/2022/12/27/collage-jpg_slide-4fff3648686c7894bae7be52b74e19eb97386859-s1200.jpg" alt="Podcast slides" />
+        </picture>
+    </div>
+</div>
+<div class="enlarge_html">
+    <div class="image_data">
+        <span class="credit" aria-label="Image credit">
+            
+            Courtesy of KPCC, KNKX, KCUR, WABE, NPR and TPR
+            
+        </span>
+    </div>
+</div>
+   </div>
+   <p>Before we kick off a new year, <a href="https://www.npr.org/app">the NPR One team</a> has gathered a few of our favorite shows and seasons from across the NPR Network for your listening enjoyment. And stay tuned; news seasons of some of our favorites are right around the corner in 2023!</p>   <h3 class="edTag"><br/><a href="https://www.npr.org/podcasts/1067139027/soundside">Soundside</a></h3>   <div id="res1145609000" class="bucketwrap image large">
+            <div
+    class="imagewrap has-source-dimensions"
+    data-crop-type=""
+    style="
+        --source-width: 1875;
+        --source-height: 938;
+    "
+>
+        <picture>
+            <source srcset="https://media.npr.org/assets/img/2022/12/27/soundside_custom-63a8719b151568646adba0c5dddced8ec8038aa5-s400-c85.webp 400w,
+https://media.npr.org/assets/img/2022/12/27/soundside_custom-63a8719b151568646adba0c5dddced8ec8038aa5-s600-c85.webp 600w,
+https://media.npr.org/assets/img/2022/12/27/soundside_custom-63a8719b151568646adba0c5dddced8ec8038aa5-s800-c85.webp 800w,
+https://media.npr.org/assets/img/2022/12/27/soundside_custom-63a8719b151568646adba0c5dddced8ec8038aa5-s900-c85.webp 900w,
+https://media.npr.org/assets/img/2022/12/27/soundside_custom-63a8719b151568646adba0c5dddced8ec8038aa5-s1200-c85.webp 1200w,
+https://media.npr.org/assets/img/2022/12/27/soundside_custom-63a8719b151568646adba0c5dddced8ec8038aa5-s1600-c85.webp 1600w,
+https://media.npr.org/assets/img/2022/12/27/soundside_custom-63a8719b151568646adba0c5dddced8ec8038aa5-s1800-c85.webp 1800w"  sizes="(min-width: 1300px) 763px, (min-width: 1025px) calc(100vw - 496px), (min-width: 768px) calc(100vw - 171px), calc(100vw - 30px)" class="img" type="image/webp" />
+            <source srcset="https://media.npr.org/assets/img/2022/12/27/soundside_custom-63a8719b151568646adba0c5dddced8ec8038aa5-s400-c85.jpg 400w,
+https://media.npr.org/assets/img/2022/12/27/soundside_custom-63a8719b151568646adba0c5dddced8ec8038aa5-s600-c85.jpg 600w,
+https://media.npr.org/assets/img/2022/12/27/soundside_custom-63a8719b151568646adba0c5dddced8ec8038aa5-s800-c85.jpg 800w,
+https://media.npr.org/assets/img/2022/12/27/soundside_custom-63a8719b151568646adba0c5dddced8ec8038aa5-s900-c85.jpg 900w,
+https://media.npr.org/assets/img/2022/12/27/soundside_custom-63a8719b151568646adba0c5dddced8ec8038aa5-s1200-c85.jpg 1200w,
+https://media.npr.org/assets/img/2022/12/27/soundside_custom-63a8719b151568646adba0c5dddced8ec8038aa5-s1600-c85.jpg 1600w,
+https://media.npr.org/assets/img/2022/12/27/soundside_custom-63a8719b151568646adba0c5dddced8ec8038aa5-s1800-c85.jpg 1800w"  sizes="(min-width: 1300px) 763px, (min-width: 1025px) calc(100vw - 496px), (min-width: 768px) calc(100vw - 171px), calc(100vw - 30px)" class="img" type="image/jpeg" />
+            <img src="https://media.npr.org/assets/img/2022/12/27/soundside_custom-63a8719b151568646adba0c5dddced8ec8038aa5-s1100-c50.jpg"  class="img" alt="Soundside Logo" loading="lazy" />
+        </picture>
+</div>
+<div class="credit-caption">
+    <div class="caption-wrap">
+        <div class="caption" aria-label="Image caption">
+        </div>
+
+
+    </div>
+
+    <span class="credit" aria-label="Image credit">
+        
+        Courtesy of KUOW
+        
+    </span>
+</div>
+   </div>
+   <p>KUOW's Soundside tells surprising stories about the people and places of the Pacific Northwest – like this deep dive (literally) into Washington's watery ecosystems, or <a href="https://www.kuow.org/stories/remembering-the-maestro-behind-twin-peaks-sound">this remembrance</a> of the maestro behind the score of the cult TV classic Twin Peaks.<br/><br/><a href="https://one.npr.org/i/1145129001:1145129003">Start listening.<br/></a></p>   <h3 class="edTag"><a href="https://www.npr.org/podcasts/510367/the-last-cup">The Last Cup</a></h3>   <div id="res1145609885" class="bucketwrap image large">
+            <div
+    class="imagewrap has-source-dimensions"
+    data-crop-type=""
+    style="
+        --source-width: 1871;
+        --source-height: 938;
+    "
+>
+        <picture>
+            <source srcset="https://media.npr.org/assets/img/2022/12/27/last-cup_custom-ebdda7225cb7d4fd6e76ba980c497691b1c943d3-s400-c85.webp 400w,
+https://media.npr.org/assets/img/2022/12/27/last-cup_custom-ebdda7225cb7d4fd6e76ba980c497691b1c943d3-s600-c85.webp 600w,
+https://media.npr.org/assets/img/2022/12/27/last-cup_custom-ebdda7225cb7d4fd6e76ba980c497691b1c943d3-s800-c85.webp 800w,
+https://media.npr.org/assets/img/2022/12/27/last-cup_custom-ebdda7225cb7d4fd6e76ba980c497691b1c943d3-s900-c85.webp 900w,
+https://media.npr.org/assets/img/2022/12/27/last-cup_custom-ebdda7225cb7d4fd6e76ba980c497691b1c943d3-s1200-c85.webp 1200w,
+https://media.npr.org/assets/img/2022/12/27/last-cup_custom-ebdda7225cb7d4fd6e76ba980c497691b1c943d3-s1600-c85.webp 1600w,
+https://media.npr.org/assets/img/2022/12/27/last-cup_custom-ebdda7225cb7d4fd6e76ba980c497691b1c943d3-s1800-c85.webp 1800w"  sizes="(min-width: 1300px) 763px, (min-width: 1025px) calc(100vw - 496px), (min-width: 768px) calc(100vw - 171px), calc(100vw - 30px)" class="img" type="image/webp" />
+            <source srcset="https://media.npr.org/assets/img/2022/12/27/last-cup_custom-ebdda7225cb7d4fd6e76ba980c497691b1c943d3-s400-c85.jpg 400w,
+https://media.npr.org/assets/img/2022/12/27/last-cup_custom-ebdda7225cb7d4fd6e76ba980c497691b1c943d3-s600-c85.jpg 600w,
+https://media.npr.org/assets/img/2022/12/27/last-cup_custom-ebdda7225cb7d4fd6e76ba980c497691b1c943d3-s800-c85.jpg 800w,
+https://media.npr.org/assets/img/2022/12/27/last-cup_custom-ebdda7225cb7d4fd6e76ba980c497691b1c943d3-s900-c85.jpg 900w,
+https://media.npr.org/assets/img/2022/12/27/last-cup_custom-ebdda7225cb7d4fd6e76ba980c497691b1c943d3-s1200-c85.jpg 1200w,
+https://media.npr.org/assets/img/2022/12/27/last-cup_custom-ebdda7225cb7d4fd6e76ba980c497691b1c943d3-s1600-c85.jpg 1600w,
+https://media.npr.org/assets/img/2022/12/27/last-cup_custom-ebdda7225cb7d4fd6e76ba980c497691b1c943d3-s1800-c85.jpg 1800w"  sizes="(min-width: 1300px) 763px, (min-width: 1025px) calc(100vw - 496px), (min-width: 768px) calc(100vw - 171px), calc(100vw - 30px)" class="img" type="image/jpeg" />
+            <img src="https://media.npr.org/assets/img/2022/12/27/last-cup_custom-ebdda7225cb7d4fd6e76ba980c497691b1c943d3-s1100-c50.jpg"  class="img" alt="Podcast art for the Last Cup" loading="lazy" />
+        </picture>
+</div>
+<div class="credit-caption">
+    <div class="caption-wrap">
+        <div class="caption" aria-label="Image caption">
+        </div>
+
+
+    </div>
+
+    <span class="credit" aria-label="Image credit">
+        
+        NPR
+        
+    </span>
+</div>
+   </div>
+   <p>Argentina won the World Cup, defeating France in a nail-biting final game. NPR's Jasmine Garsd tells the life story of their star player, Lionel Messi, and his quest for victory in <em>The Last Cup</em>.<br/><br/><a href="https://one.npr.org/i/1133356542:1133620023">Start listening.</a></p>   <h3 class="edTag"><br/><a href="https://www.npr.org/podcasts/510311/embedded">Embedded</a></h3>   <div id="res1145610144" class="bucketwrap image large">
+            <div
+    class="imagewrap has-source-dimensions"
+    data-crop-type=""
+    style="
+        --source-width: 1875;
+        --source-height: 938;
+    "
+>
+        <picture>
+            <source srcset="https://media.npr.org/assets/img/2022/12/27/embedded_custom-954c0457dd4b0815c8401e2b67ddc43a10545dee-s400-c85.webp 400w,
+https://media.npr.org/assets/img/2022/12/27/embedded_custom-954c0457dd4b0815c8401e2b67ddc43a10545dee-s600-c85.webp 600w,
+https://media.npr.org/assets/img/2022/12/27/embedded_custom-954c0457dd4b0815c8401e2b67ddc43a10545dee-s800-c85.webp 800w,
+https://media.npr.org/assets/img/2022/12/27/embedded_custom-954c0457dd4b0815c8401e2b67ddc43a10545dee-s900-c85.webp 900w,
+https://media.npr.org/assets/img/2022/12/27/embedded_custom-954c0457dd4b0815c8401e2b67ddc43a10545dee-s1200-c85.webp 1200w,
+https://media.npr.org/assets/img/2022/12/27/embedded_custom-954c0457dd4b0815c8401e2b67ddc43a10545dee-s1600-c85.webp 1600w,
+https://media.npr.org/assets/img/2022/12/27/embedded_custom-954c0457dd4b0815c8401e2b67ddc43a10545dee-s1800-c85.webp 1800w"  sizes="(min-width: 1300px) 763px, (min-width: 1025px) calc(100vw - 496px), (min-width: 768px) calc(100vw - 171px), calc(100vw - 30px)" class="img" type="image/webp" />
+            <source srcset="https://media.npr.org/assets/img/2022/12/27/embedded_custom-954c0457dd4b0815c8401e2b67ddc43a10545dee-s400-c85.jpg 400w,
+https://media.npr.org/assets/img/2022/12/27/embedded_custom-954c0457dd4b0815c8401e2b67ddc43a10545dee-s600-c85.jpg 600w,
+https://media.npr.org/assets/img/2022/12/27/embedded_custom-954c0457dd4b0815c8401e2b67ddc43a10545dee-s800-c85.jpg 800w,
+https://media.npr.org/assets/img/2022/12/27/embedded_custom-954c0457dd4b0815c8401e2b67ddc43a10545dee-s900-c85.jpg 900w,
+https://media.npr.org/assets/img/2022/12/27/embedded_custom-954c0457dd4b0815c8401e2b67ddc43a10545dee-s1200-c85.jpg 1200w,
+https://media.npr.org/assets/img/2022/12/27/embedded_custom-954c0457dd4b0815c8401e2b67ddc43a10545dee-s1600-c85.jpg 1600w,
+https://media.npr.org/assets/img/2022/12/27/embedded_custom-954c0457dd4b0815c8401e2b67ddc43a10545dee-s1800-c85.jpg 1800w"  sizes="(min-width: 1300px) 763px, (min-width: 1025px) calc(100vw - 496px), (min-width: 768px) calc(100vw - 171px), calc(100vw - 30px)" class="img" type="image/jpeg" />
+            <img src="https://media.npr.org/assets/img/2022/12/27/embedded_custom-954c0457dd4b0815c8401e2b67ddc43a10545dee-s1100-c50.jpg"  class="img" alt="Embedded podcast title." loading="lazy" />
+        </picture>
+</div>
+<div class="credit-caption">
+    <div class="caption-wrap">
+        <div class="caption" aria-label="Image caption">
+        </div>
+
+
+    </div>
+
+    <span class="credit" aria-label="Image credit">
+        
+        NPR
+        
+    </span>
+</div>
+   </div>
+   <p>For over a decade, the Yonkers Police Department has been monitored by the federal government because of its history of misconduct. A new generation of leaders say they are fixing what's broken. But <em>Embedded</em>'s latest series asks: what does this really mean and how will it change things?<br/><br/><a href="https://one.npr.org/i/1109997881:1111342119">Start listening.</a></p>   <aside id="ad-backstage-wrap" aria-label="advertisement">
+    
+
+    <div id="ad-backstage-Arts___Life" class="ad-backstage ad-config" data-ad-config='{"network":"\/6735\/","site":{"desktop":"n6735.NPR","mobile":"n6735.NPRMOBILE"},"zone":"Arts___Life","targets":{"testserver":"false","isPodcastEpisode":"false","storyId":"1145598590","agg":["1148220230","434975886"]},"location":"backstage","deferred":false,"isBetweenContent":true,"borderClass":"","overflowCount":null}'></div>
+
+</aside>
+   <h3 class="edTag"><a href="https://www.npr.org/podcasts/510338/all-guides">Life Kit</a></h3>   <div id="res1145610426" class="bucketwrap image large">
+            <div
+    class="imagewrap has-source-dimensions"
+    data-crop-type=""
+    style="
+        --source-width: 1875;
+        --source-height: 938;
+    "
+>
+        <picture>
+            <source srcset="https://media.npr.org/assets/img/2022/12/27/life-kit_custom-e9fb323f949a4c4ecb946b59f5fad61a5f129d19-s400-c85.webp 400w,
+https://media.npr.org/assets/img/2022/12/27/life-kit_custom-e9fb323f949a4c4ecb946b59f5fad61a5f129d19-s600-c85.webp 600w,
+https://media.npr.org/assets/img/2022/12/27/life-kit_custom-e9fb323f949a4c4ecb946b59f5fad61a5f129d19-s800-c85.webp 800w,
+https://media.npr.org/assets/img/2022/12/27/life-kit_custom-e9fb323f949a4c4ecb946b59f5fad61a5f129d19-s900-c85.webp 900w,
+https://media.npr.org/assets/img/2022/12/27/life-kit_custom-e9fb323f949a4c4ecb946b59f5fad61a5f129d19-s1200-c85.webp 1200w,
+https://media.npr.org/assets/img/2022/12/27/life-kit_custom-e9fb323f949a4c4ecb946b59f5fad61a5f129d19-s1600-c85.webp 1600w,
+https://media.npr.org/assets/img/2022/12/27/life-kit_custom-e9fb323f949a4c4ecb946b59f5fad61a5f129d19-s1800-c85.webp 1800w"  sizes="(min-width: 1300px) 763px, (min-width: 1025px) calc(100vw - 496px), (min-width: 768px) calc(100vw - 171px), calc(100vw - 30px)" class="img" type="image/webp" />
+            <source srcset="https://media.npr.org/assets/img/2022/12/27/life-kit_custom-e9fb323f949a4c4ecb946b59f5fad61a5f129d19-s400-c85.jpg 400w,
+https://media.npr.org/assets/img/2022/12/27/life-kit_custom-e9fb323f949a4c4ecb946b59f5fad61a5f129d19-s600-c85.jpg 600w,
+https://media.npr.org/assets/img/2022/12/27/life-kit_custom-e9fb323f949a4c4ecb946b59f5fad61a5f129d19-s800-c85.jpg 800w,
+https://media.npr.org/assets/img/2022/12/27/life-kit_custom-e9fb323f949a4c4ecb946b59f5fad61a5f129d19-s900-c85.jpg 900w,
+https://media.npr.org/assets/img/2022/12/27/life-kit_custom-e9fb323f949a4c4ecb946b59f5fad61a5f129d19-s1200-c85.jpg 1200w,
+https://media.npr.org/assets/img/2022/12/27/life-kit_custom-e9fb323f949a4c4ecb946b59f5fad61a5f129d19-s1600-c85.jpg 1600w,
+https://media.npr.org/assets/img/2022/12/27/life-kit_custom-e9fb323f949a4c4ecb946b59f5fad61a5f129d19-s1800-c85.jpg 1800w"  sizes="(min-width: 1300px) 763px, (min-width: 1025px) calc(100vw - 496px), (min-width: 768px) calc(100vw - 171px), calc(100vw - 30px)" class="img" type="image/jpeg" />
+            <img src="https://media.npr.org/assets/img/2022/12/27/life-kit_custom-e9fb323f949a4c4ecb946b59f5fad61a5f129d19-s1100-c50.jpg"  class="img" alt="Life kit podcast art" loading="lazy" />
+        </picture>
+</div>
+<div class="credit-caption">
+    <div class="caption-wrap">
+        <div class="caption" aria-label="Image caption">
+        </div>
+
+
+    </div>
+
+    <span class="credit" aria-label="Image credit">
+        
+        NPR
+        
+    </span>
+</div>
+   </div>
+   <p>Want to be a better you? Or get some affirmation on the stuff you're already doing? Check out NPR's Life Kit for advice from the experts and get a little help being a human.<br/><br/>And don't forget to check out <a href="https://www.npr.org/2022/12/26/1140731910/new-years-resolution-ideas">the Life Kit 2023 Resolution Planner.</a></p>   <h3 class="edTag"><a href="https://www.npr.org/podcasts/510307/invisibilia">Invisibilia </a></h3>   <div id="res1145611283" class="bucketwrap image large">
+            <div
+    class="imagewrap has-source-dimensions"
+    data-crop-type=""
+    style="
+        --source-width: 1875;
+        --source-height: 938;
+    "
+>
+        <picture>
+            <source srcset="https://media.npr.org/assets/img/2022/12/27/invisi_custom-eb3e593a2d3a143d4f0d7e2e6c81df3dea6da69d-s400-c85.webp 400w,
+https://media.npr.org/assets/img/2022/12/27/invisi_custom-eb3e593a2d3a143d4f0d7e2e6c81df3dea6da69d-s600-c85.webp 600w,
+https://media.npr.org/assets/img/2022/12/27/invisi_custom-eb3e593a2d3a143d4f0d7e2e6c81df3dea6da69d-s800-c85.webp 800w,
+https://media.npr.org/assets/img/2022/12/27/invisi_custom-eb3e593a2d3a143d4f0d7e2e6c81df3dea6da69d-s900-c85.webp 900w,
+https://media.npr.org/assets/img/2022/12/27/invisi_custom-eb3e593a2d3a143d4f0d7e2e6c81df3dea6da69d-s1200-c85.webp 1200w,
+https://media.npr.org/assets/img/2022/12/27/invisi_custom-eb3e593a2d3a143d4f0d7e2e6c81df3dea6da69d-s1600-c85.webp 1600w,
+https://media.npr.org/assets/img/2022/12/27/invisi_custom-eb3e593a2d3a143d4f0d7e2e6c81df3dea6da69d-s1800-c85.webp 1800w"  sizes="(min-width: 1300px) 763px, (min-width: 1025px) calc(100vw - 496px), (min-width: 768px) calc(100vw - 171px), calc(100vw - 30px)" class="img" type="image/webp" />
+            <source srcset="https://media.npr.org/assets/img/2022/12/27/invisi_custom-eb3e593a2d3a143d4f0d7e2e6c81df3dea6da69d-s400-c85.jpg 400w,
+https://media.npr.org/assets/img/2022/12/27/invisi_custom-eb3e593a2d3a143d4f0d7e2e6c81df3dea6da69d-s600-c85.jpg 600w,
+https://media.npr.org/assets/img/2022/12/27/invisi_custom-eb3e593a2d3a143d4f0d7e2e6c81df3dea6da69d-s800-c85.jpg 800w,
+https://media.npr.org/assets/img/2022/12/27/invisi_custom-eb3e593a2d3a143d4f0d7e2e6c81df3dea6da69d-s900-c85.jpg 900w,
+https://media.npr.org/assets/img/2022/12/27/invisi_custom-eb3e593a2d3a143d4f0d7e2e6c81df3dea6da69d-s1200-c85.jpg 1200w,
+https://media.npr.org/assets/img/2022/12/27/invisi_custom-eb3e593a2d3a143d4f0d7e2e6c81df3dea6da69d-s1600-c85.jpg 1600w,
+https://media.npr.org/assets/img/2022/12/27/invisi_custom-eb3e593a2d3a143d4f0d7e2e6c81df3dea6da69d-s1800-c85.jpg 1800w"  sizes="(min-width: 1300px) 763px, (min-width: 1025px) calc(100vw - 496px), (min-width: 768px) calc(100vw - 171px), calc(100vw - 30px)" class="img" type="image/jpeg" />
+            <img src="https://media.npr.org/assets/img/2022/12/27/invisi_custom-eb3e593a2d3a143d4f0d7e2e6c81df3dea6da69d-s1100-c50.jpg"  class="img" alt="podcast art" loading="lazy" />
+        </picture>
+</div>
+<div class="credit-caption">
+    <div class="caption-wrap">
+        <div class="caption" aria-label="Image caption">
+        </div>
+
+
+    </div>
+
+    <span class="credit" aria-label="Image credit">
+        
+        NPR
+        
+    </span>
+</div>
+   </div>
+   <p>We all struggle to feel in control of something. For its latest season, NPR's Invisibilia takes on the narratives we have about control: what's in or out of ours, the invisible tools of control and the crutches we use to FEEL in control but that might not be helping.<br/><a href="https://one.npr.org/i/1121747527:1121942888"><br/>Start listening.</a></p>   <h3 class="edTag"><a href="https://www.npr.org/podcasts/1119455600/the-walk-home">The Walk Home</a></h3>   <div id="res1145611714" class="bucketwrap image large">
+            <div
+    class="imagewrap has-source-dimensions"
+    data-crop-type=""
+    style="
+        --source-width: 1875;
+        --source-height: 938;
+    "
+>
+        <picture>
+            <source srcset="https://media.npr.org/assets/img/2022/12/27/the-walk-home_custom-4cbf6b69a44e3033b58cd5f77cc1d2c151a8a4c2-s400-c85.webp 400w,
+https://media.npr.org/assets/img/2022/12/27/the-walk-home_custom-4cbf6b69a44e3033b58cd5f77cc1d2c151a8a4c2-s600-c85.webp 600w,
+https://media.npr.org/assets/img/2022/12/27/the-walk-home_custom-4cbf6b69a44e3033b58cd5f77cc1d2c151a8a4c2-s800-c85.webp 800w,
+https://media.npr.org/assets/img/2022/12/27/the-walk-home_custom-4cbf6b69a44e3033b58cd5f77cc1d2c151a8a4c2-s900-c85.webp 900w,
+https://media.npr.org/assets/img/2022/12/27/the-walk-home_custom-4cbf6b69a44e3033b58cd5f77cc1d2c151a8a4c2-s1200-c85.webp 1200w,
+https://media.npr.org/assets/img/2022/12/27/the-walk-home_custom-4cbf6b69a44e3033b58cd5f77cc1d2c151a8a4c2-s1600-c85.webp 1600w,
+https://media.npr.org/assets/img/2022/12/27/the-walk-home_custom-4cbf6b69a44e3033b58cd5f77cc1d2c151a8a4c2-s1800-c85.webp 1800w"  sizes="(min-width: 1300px) 763px, (min-width: 1025px) calc(100vw - 496px), (min-width: 768px) calc(100vw - 171px), calc(100vw - 30px)" class="img" type="image/webp" />
+            <source srcset="https://media.npr.org/assets/img/2022/12/27/the-walk-home_custom-4cbf6b69a44e3033b58cd5f77cc1d2c151a8a4c2-s400-c85.jpg 400w,
+https://media.npr.org/assets/img/2022/12/27/the-walk-home_custom-4cbf6b69a44e3033b58cd5f77cc1d2c151a8a4c2-s600-c85.jpg 600w,
+https://media.npr.org/assets/img/2022/12/27/the-walk-home_custom-4cbf6b69a44e3033b58cd5f77cc1d2c151a8a4c2-s800-c85.jpg 800w,
+https://media.npr.org/assets/img/2022/12/27/the-walk-home_custom-4cbf6b69a44e3033b58cd5f77cc1d2c151a8a4c2-s900-c85.jpg 900w,
+https://media.npr.org/assets/img/2022/12/27/the-walk-home_custom-4cbf6b69a44e3033b58cd5f77cc1d2c151a8a4c2-s1200-c85.jpg 1200w,
+https://media.npr.org/assets/img/2022/12/27/the-walk-home_custom-4cbf6b69a44e3033b58cd5f77cc1d2c151a8a4c2-s1600-c85.jpg 1600w,
+https://media.npr.org/assets/img/2022/12/27/the-walk-home_custom-4cbf6b69a44e3033b58cd5f77cc1d2c151a8a4c2-s1800-c85.jpg 1800w"  sizes="(min-width: 1300px) 763px, (min-width: 1025px) calc(100vw - 496px), (min-width: 768px) calc(100vw - 171px), calc(100vw - 30px)" class="img" type="image/jpeg" />
+            <img src="https://media.npr.org/assets/img/2022/12/27/the-walk-home_custom-4cbf6b69a44e3033b58cd5f77cc1d2c151a8a4c2-s1100-c50.jpg"  class="img" alt="podcast art" loading="lazy" />
+        </picture>
+</div>
+<div class="credit-caption">
+    <div class="caption-wrap">
+        <div class="caption" aria-label="Image caption">
+        </div>
+
+
+    </div>
+
+    <span class="credit" aria-label="Image credit">
+        
+        KNKX
+        
+    </span>
+</div>
+   </div>
+   <p>The Walk Home from KNKX investigates the killing of Manny Ellis, a 33-year-old Black man, three months before George Floyd's murder. The series explores why his death went virtually unnoticed — until his sister took on the case.<br/><br/><a href="https://one.npr.org/i/1119458066:1119458086">Start listening. </a></p>   <h3 class="edTag"><a href="https://www.npr.org/podcasts/655841151/bear-brook">Bear Brook </a></h3>   <div id="res1145612032" class="bucketwrap image large">
+            <div
+    class="imagewrap has-source-dimensions"
+    data-crop-type=""
+    style="
+        --source-width: 1875;
+        --source-height: 938;
+    "
+>
+        <picture>
+            <source srcset="https://media.npr.org/assets/img/2022/12/27/bear-brook_custom-02c9dd11a0a50ec8a62c9963b1b5a8e9af549b16-s400-c85.webp 400w,
+https://media.npr.org/assets/img/2022/12/27/bear-brook_custom-02c9dd11a0a50ec8a62c9963b1b5a8e9af549b16-s600-c85.webp 600w,
+https://media.npr.org/assets/img/2022/12/27/bear-brook_custom-02c9dd11a0a50ec8a62c9963b1b5a8e9af549b16-s800-c85.webp 800w,
+https://media.npr.org/assets/img/2022/12/27/bear-brook_custom-02c9dd11a0a50ec8a62c9963b1b5a8e9af549b16-s900-c85.webp 900w,
+https://media.npr.org/assets/img/2022/12/27/bear-brook_custom-02c9dd11a0a50ec8a62c9963b1b5a8e9af549b16-s1200-c85.webp 1200w,
+https://media.npr.org/assets/img/2022/12/27/bear-brook_custom-02c9dd11a0a50ec8a62c9963b1b5a8e9af549b16-s1600-c85.webp 1600w,
+https://media.npr.org/assets/img/2022/12/27/bear-brook_custom-02c9dd11a0a50ec8a62c9963b1b5a8e9af549b16-s1800-c85.webp 1800w"  sizes="(min-width: 1300px) 763px, (min-width: 1025px) calc(100vw - 496px), (min-width: 768px) calc(100vw - 171px), calc(100vw - 30px)" class="img" type="image/webp" />
+            <source srcset="https://media.npr.org/assets/img/2022/12/27/bear-brook_custom-02c9dd11a0a50ec8a62c9963b1b5a8e9af549b16-s400-c85.jpg 400w,
+https://media.npr.org/assets/img/2022/12/27/bear-brook_custom-02c9dd11a0a50ec8a62c9963b1b5a8e9af549b16-s600-c85.jpg 600w,
+https://media.npr.org/assets/img/2022/12/27/bear-brook_custom-02c9dd11a0a50ec8a62c9963b1b5a8e9af549b16-s800-c85.jpg 800w,
+https://media.npr.org/assets/img/2022/12/27/bear-brook_custom-02c9dd11a0a50ec8a62c9963b1b5a8e9af549b16-s900-c85.jpg 900w,
+https://media.npr.org/assets/img/2022/12/27/bear-brook_custom-02c9dd11a0a50ec8a62c9963b1b5a8e9af549b16-s1200-c85.jpg 1200w,
+https://media.npr.org/assets/img/2022/12/27/bear-brook_custom-02c9dd11a0a50ec8a62c9963b1b5a8e9af549b16-s1600-c85.jpg 1600w,
+https://media.npr.org/assets/img/2022/12/27/bear-brook_custom-02c9dd11a0a50ec8a62c9963b1b5a8e9af549b16-s1800-c85.jpg 1800w"  sizes="(min-width: 1300px) 763px, (min-width: 1025px) calc(100vw - 496px), (min-width: 768px) calc(100vw - 171px), calc(100vw - 30px)" class="img" type="image/jpeg" />
+            <img src="https://media.npr.org/assets/img/2022/12/27/bear-brook_custom-02c9dd11a0a50ec8a62c9963b1b5a8e9af549b16-s1100-c50.jpg"  class="img" alt="Podcast Art" loading="lazy" />
+        </picture>
+</div>
+<div class="credit-caption">
+    <div class="caption-wrap">
+        <div class="caption" aria-label="Image caption">
+        </div>
+
+
+    </div>
+
+    <span class="credit" aria-label="Image credit">
+        
+        NHPR
+        
+    </span>
+</div>
+   </div>
+   <p>A hunter discovers the remains of two bodies in an overturned barrel. Years later, two more bodies are found. Then, a break in the case: those four bodies are linked to a much larger story and many more victims.<br/><br/><a href="https://one.npr.org/i/655850150:655850152">Catch up on season 1 of NHPR's Bear Brook </a>ahead of season 2, coming in February.</p>   <h3 class="edTag"><a href="https://www.npr.org/podcasts/1135899370/l-a-made">LA Made: Blood, Sweat & Rockets<br/></a></h3>   <div id="res1145606019" class="bucketwrap image large">
+            <div
+    class="imagewrap has-source-dimensions"
+    data-crop-type=""
+    style="
+        --source-width: 1760;
+        --source-height: 921;
+    "
+>
+        <picture>
+            <source srcset="https://media.npr.org/assets/img/2022/12/27/ezgif.com-gif-maker_custom-b375060d6ff5ec62faaf1ab03e2f08309245d040-s400-c85.webp 400w,
+https://media.npr.org/assets/img/2022/12/27/ezgif.com-gif-maker_custom-b375060d6ff5ec62faaf1ab03e2f08309245d040-s600-c85.webp 600w,
+https://media.npr.org/assets/img/2022/12/27/ezgif.com-gif-maker_custom-b375060d6ff5ec62faaf1ab03e2f08309245d040-s800-c85.webp 800w,
+https://media.npr.org/assets/img/2022/12/27/ezgif.com-gif-maker_custom-b375060d6ff5ec62faaf1ab03e2f08309245d040-s900-c85.webp 900w,
+https://media.npr.org/assets/img/2022/12/27/ezgif.com-gif-maker_custom-b375060d6ff5ec62faaf1ab03e2f08309245d040-s1200-c85.webp 1200w,
+https://media.npr.org/assets/img/2022/12/27/ezgif.com-gif-maker_custom-b375060d6ff5ec62faaf1ab03e2f08309245d040-s1600-c85.webp 1600w,
+https://media.npr.org/assets/img/2022/12/27/ezgif.com-gif-maker_custom-b375060d6ff5ec62faaf1ab03e2f08309245d040-s1800-c85.webp 1800w"  sizes="(min-width: 1300px) 763px, (min-width: 1025px) calc(100vw - 496px), (min-width: 768px) calc(100vw - 171px), calc(100vw - 30px)" class="img" type="image/webp" />
+            <source srcset="https://media.npr.org/assets/img/2022/12/27/ezgif.com-gif-maker_custom-b375060d6ff5ec62faaf1ab03e2f08309245d040-s400-c85.jpg 400w,
+https://media.npr.org/assets/img/2022/12/27/ezgif.com-gif-maker_custom-b375060d6ff5ec62faaf1ab03e2f08309245d040-s600-c85.jpg 600w,
+https://media.npr.org/assets/img/2022/12/27/ezgif.com-gif-maker_custom-b375060d6ff5ec62faaf1ab03e2f08309245d040-s800-c85.jpg 800w,
+https://media.npr.org/assets/img/2022/12/27/ezgif.com-gif-maker_custom-b375060d6ff5ec62faaf1ab03e2f08309245d040-s900-c85.jpg 900w,
+https://media.npr.org/assets/img/2022/12/27/ezgif.com-gif-maker_custom-b375060d6ff5ec62faaf1ab03e2f08309245d040-s1200-c85.jpg 1200w,
+https://media.npr.org/assets/img/2022/12/27/ezgif.com-gif-maker_custom-b375060d6ff5ec62faaf1ab03e2f08309245d040-s1600-c85.jpg 1600w,
+https://media.npr.org/assets/img/2022/12/27/ezgif.com-gif-maker_custom-b375060d6ff5ec62faaf1ab03e2f08309245d040-s1800-c85.jpg 1800w"  sizes="(min-width: 1300px) 763px, (min-width: 1025px) calc(100vw - 496px), (min-width: 768px) calc(100vw - 171px), calc(100vw - 30px)" class="img" type="image/jpeg" />
+            <img src="https://media.npr.org/assets/img/2022/12/27/ezgif.com-gif-maker_custom-b375060d6ff5ec62faaf1ab03e2f08309245d040-s1100-c50.jpg"  class="img" alt="Co" loading="lazy" />
+        </picture>
+</div>
+<div class="credit-caption">
+    <div class="caption-wrap">
+        <div class="caption" aria-label="Image caption">
+        </div>
+
+
+    </div>
+
+    <span class="credit" aria-label="Image credit">
+        
+        Courtesy of KPCC, CHRISTINE HILL, TENDER WARRIOR
+        
+    </span>
+</div>
+   </div>
+   <p>The occult; a suspected spy ring; a mysterious death.<br/></p>   <aside id="ad-secondary-wrap" aria-label="advertisement">
+    
+
+    <div id="ad-secondary-Arts___Life" class="ad-secondary ad-config" data-ad-config='{"network":"\/6735\/","site":{"desktop":"NPRSecondary","mobile":"NPRMobileSecondary"},"zone":"Arts___Life","targets":{"testserver":"false","isPodcastEpisode":"false","storyId":"1145598590","agg":["1148220230","434975886"]},"location":"secondary","deferred":false,"isBetweenContent":true,"borderClass":"","overflowCount":null}'></div>
+
+</aside>
+   <p>These were some of the controversies that plagued the early days of space exploration. LA Made: Blood, Sweat & Rockets from LAist Studios tells the story of the "Suicide Squad," a fearless crew who led our quest to outer space.<br/><br/><a href="https://one.npr.org/i/1136748960:1136748962">Start listening.</a></p>   <h3 class="edTag"><a href="https://www.si.edu/sidedoor">Sidedoor</a></h3>   <div id="res1145612850" class="bucketwrap image large">
+            <div
+    class="imagewrap has-source-dimensions"
+    data-crop-type=""
+    style="
+        --source-width: 1875;
+        --source-height: 938;
+    "
+>
+        <picture>
+            <source srcset="https://media.npr.org/assets/img/2022/12/27/side-door_custom-1201f533ef300ce2c59b59bd5f837016da55bc4d-s400-c85.webp 400w,
+https://media.npr.org/assets/img/2022/12/27/side-door_custom-1201f533ef300ce2c59b59bd5f837016da55bc4d-s600-c85.webp 600w,
+https://media.npr.org/assets/img/2022/12/27/side-door_custom-1201f533ef300ce2c59b59bd5f837016da55bc4d-s800-c85.webp 800w,
+https://media.npr.org/assets/img/2022/12/27/side-door_custom-1201f533ef300ce2c59b59bd5f837016da55bc4d-s900-c85.webp 900w,
+https://media.npr.org/assets/img/2022/12/27/side-door_custom-1201f533ef300ce2c59b59bd5f837016da55bc4d-s1200-c85.webp 1200w,
+https://media.npr.org/assets/img/2022/12/27/side-door_custom-1201f533ef300ce2c59b59bd5f837016da55bc4d-s1600-c85.webp 1600w,
+https://media.npr.org/assets/img/2022/12/27/side-door_custom-1201f533ef300ce2c59b59bd5f837016da55bc4d-s1800-c85.webp 1800w"  sizes="(min-width: 1300px) 763px, (min-width: 1025px) calc(100vw - 496px), (min-width: 768px) calc(100vw - 171px), calc(100vw - 30px)" class="img" type="image/webp" />
+            <source srcset="https://media.npr.org/assets/img/2022/12/27/side-door_custom-1201f533ef300ce2c59b59bd5f837016da55bc4d-s400-c85.jpg 400w,
+https://media.npr.org/assets/img/2022/12/27/side-door_custom-1201f533ef300ce2c59b59bd5f837016da55bc4d-s600-c85.jpg 600w,
+https://media.npr.org/assets/img/2022/12/27/side-door_custom-1201f533ef300ce2c59b59bd5f837016da55bc4d-s800-c85.jpg 800w,
+https://media.npr.org/assets/img/2022/12/27/side-door_custom-1201f533ef300ce2c59b59bd5f837016da55bc4d-s900-c85.jpg 900w,
+https://media.npr.org/assets/img/2022/12/27/side-door_custom-1201f533ef300ce2c59b59bd5f837016da55bc4d-s1200-c85.jpg 1200w,
+https://media.npr.org/assets/img/2022/12/27/side-door_custom-1201f533ef300ce2c59b59bd5f837016da55bc4d-s1600-c85.jpg 1600w,
+https://media.npr.org/assets/img/2022/12/27/side-door_custom-1201f533ef300ce2c59b59bd5f837016da55bc4d-s1800-c85.jpg 1800w"  sizes="(min-width: 1300px) 763px, (min-width: 1025px) calc(100vw - 496px), (min-width: 768px) calc(100vw - 171px), calc(100vw - 30px)" class="img" type="image/jpeg" />
+            <img src="https://media.npr.org/assets/img/2022/12/27/side-door_custom-1201f533ef300ce2c59b59bd5f837016da55bc4d-s1100-c50.jpg"  class="img" alt="Podcast art" loading="lazy" />
+        </picture>
+</div>
+<div class="credit-caption">
+    <div class="caption-wrap">
+        <div class="caption" aria-label="Image caption">
+        </div>
+
+
+    </div>
+
+    <span class="credit" aria-label="Image credit">
+        
+        Courtesy of PRX
+        
+    </span>
+</div>
+   </div>
+   <p>Are there ghosts at the Smithsonian? Who built the White House? And how did the Hubble Space Telescope go from a "billion-dollar blunder" to one of history's most important scientific instruments? Find out on the new season of Sidedoor.<br/><br/><a href="https://www.si.edu/sidedoor">Start listening.</a></p>   <h3 class="edTag"><a href="https://www.npr.org/podcasts/1131057028/the-ghost-of-frank-j-robinson">The Ghost of Frank J. Robinson</a></h3>   <div id="res1145613530" class="bucketwrap image large">
+            <div
+    class="imagewrap has-source-dimensions"
+    data-crop-type=""
+    style="
+        --source-width: 1871;
+        --source-height: 938;
+    "
+>
+        <picture>
+            <source srcset="https://media.npr.org/assets/img/2022/12/27/tpr_custom-f0ac186e05ff420cce4fe1a0db98439873f03c90-s400-c85.webp 400w,
+https://media.npr.org/assets/img/2022/12/27/tpr_custom-f0ac186e05ff420cce4fe1a0db98439873f03c90-s600-c85.webp 600w,
+https://media.npr.org/assets/img/2022/12/27/tpr_custom-f0ac186e05ff420cce4fe1a0db98439873f03c90-s800-c85.webp 800w,
+https://media.npr.org/assets/img/2022/12/27/tpr_custom-f0ac186e05ff420cce4fe1a0db98439873f03c90-s900-c85.webp 900w,
+https://media.npr.org/assets/img/2022/12/27/tpr_custom-f0ac186e05ff420cce4fe1a0db98439873f03c90-s1200-c85.webp 1200w,
+https://media.npr.org/assets/img/2022/12/27/tpr_custom-f0ac186e05ff420cce4fe1a0db98439873f03c90-s1600-c85.webp 1600w,
+https://media.npr.org/assets/img/2022/12/27/tpr_custom-f0ac186e05ff420cce4fe1a0db98439873f03c90-s1800-c85.webp 1800w"  sizes="(min-width: 1300px) 763px, (min-width: 1025px) calc(100vw - 496px), (min-width: 768px) calc(100vw - 171px), calc(100vw - 30px)" class="img" type="image/webp" />
+            <source srcset="https://media.npr.org/assets/img/2022/12/27/tpr_custom-f0ac186e05ff420cce4fe1a0db98439873f03c90-s400-c85.jpg 400w,
+https://media.npr.org/assets/img/2022/12/27/tpr_custom-f0ac186e05ff420cce4fe1a0db98439873f03c90-s600-c85.jpg 600w,
+https://media.npr.org/assets/img/2022/12/27/tpr_custom-f0ac186e05ff420cce4fe1a0db98439873f03c90-s800-c85.jpg 800w,
+https://media.npr.org/assets/img/2022/12/27/tpr_custom-f0ac186e05ff420cce4fe1a0db98439873f03c90-s900-c85.jpg 900w,
+https://media.npr.org/assets/img/2022/12/27/tpr_custom-f0ac186e05ff420cce4fe1a0db98439873f03c90-s1200-c85.jpg 1200w,
+https://media.npr.org/assets/img/2022/12/27/tpr_custom-f0ac186e05ff420cce4fe1a0db98439873f03c90-s1600-c85.jpg 1600w,
+https://media.npr.org/assets/img/2022/12/27/tpr_custom-f0ac186e05ff420cce4fe1a0db98439873f03c90-s1800-c85.jpg 1800w"  sizes="(min-width: 1300px) 763px, (min-width: 1025px) calc(100vw - 496px), (min-width: 768px) calc(100vw - 171px), calc(100vw - 30px)" class="img" type="image/jpeg" />
+            <img src="https://media.npr.org/assets/img/2022/12/27/tpr_custom-f0ac186e05ff420cce4fe1a0db98439873f03c90-s1100-c50.jpg"  class="img" alt="TPR podcast art" loading="lazy" />
+        </picture>
+</div>
+<div class="credit-caption">
+    <div class="caption-wrap">
+        <div class="caption" aria-label="Image caption">
+        </div>
+
+
+    </div>
+
+    <span class="credit" aria-label="Image credit">
+        
+        Courtesy of TPR
+        
+    </span>
+</div>
+   </div>
+   <p>A true crime mystery meets voting rights in The Ghost of Frank J. Robinson from Texas Public Radio. A cache of newly discovered audio tapes and eyewitness accounts reveal that the death of an East Texas civil rights leader may not be the violent suicide the state claims.<br/><br/><a href="https://one.npr.org/i/1132398068:1132398070">Start listening.</a></p>   <h3 class="edTag"><a href="https://www.npr.org/podcasts/500692140/making">Making</a></h3>   <div id="res1145613984" class="bucketwrap image large">
+            <div
+    class="imagewrap has-source-dimensions"
+    data-crop-type=""
+    style="
+        --source-width: 1875;
+        --source-height: 938;
+    "
+>
+        <picture>
+            <source srcset="https://media.npr.org/assets/img/2022/12/27/wbez_custom-ee341cbb6c9a40ddd02690845342794cae396e0a-s400-c85.webp 400w,
+https://media.npr.org/assets/img/2022/12/27/wbez_custom-ee341cbb6c9a40ddd02690845342794cae396e0a-s600-c85.webp 600w,
+https://media.npr.org/assets/img/2022/12/27/wbez_custom-ee341cbb6c9a40ddd02690845342794cae396e0a-s800-c85.webp 800w,
+https://media.npr.org/assets/img/2022/12/27/wbez_custom-ee341cbb6c9a40ddd02690845342794cae396e0a-s900-c85.webp 900w,
+https://media.npr.org/assets/img/2022/12/27/wbez_custom-ee341cbb6c9a40ddd02690845342794cae396e0a-s1200-c85.webp 1200w,
+https://media.npr.org/assets/img/2022/12/27/wbez_custom-ee341cbb6c9a40ddd02690845342794cae396e0a-s1600-c85.webp 1600w,
+https://media.npr.org/assets/img/2022/12/27/wbez_custom-ee341cbb6c9a40ddd02690845342794cae396e0a-s1800-c85.webp 1800w"  sizes="(min-width: 1300px) 763px, (min-width: 1025px) calc(100vw - 496px), (min-width: 768px) calc(100vw - 171px), calc(100vw - 30px)" class="img" type="image/webp" />
+            <source srcset="https://media.npr.org/assets/img/2022/12/27/wbez_custom-ee341cbb6c9a40ddd02690845342794cae396e0a-s400-c85.jpg 400w,
+https://media.npr.org/assets/img/2022/12/27/wbez_custom-ee341cbb6c9a40ddd02690845342794cae396e0a-s600-c85.jpg 600w,
+https://media.npr.org/assets/img/2022/12/27/wbez_custom-ee341cbb6c9a40ddd02690845342794cae396e0a-s800-c85.jpg 800w,
+https://media.npr.org/assets/img/2022/12/27/wbez_custom-ee341cbb6c9a40ddd02690845342794cae396e0a-s900-c85.jpg 900w,
+https://media.npr.org/assets/img/2022/12/27/wbez_custom-ee341cbb6c9a40ddd02690845342794cae396e0a-s1200-c85.jpg 1200w,
+https://media.npr.org/assets/img/2022/12/27/wbez_custom-ee341cbb6c9a40ddd02690845342794cae396e0a-s1600-c85.jpg 1600w,
+https://media.npr.org/assets/img/2022/12/27/wbez_custom-ee341cbb6c9a40ddd02690845342794cae396e0a-s1800-c85.jpg 1800w"  sizes="(min-width: 1300px) 763px, (min-width: 1025px) calc(100vw - 496px), (min-width: 768px) calc(100vw - 171px), calc(100vw - 30px)" class="img" type="image/jpeg" />
+            <img src="https://media.npr.org/assets/img/2022/12/27/wbez_custom-ee341cbb6c9a40ddd02690845342794cae396e0a-s1100-c50.jpg"  class="img" alt="Podcast art." loading="lazy" />
+        </picture>
+</div>
+<div class="credit-caption">
+    <div class="caption-wrap">
+        <div class="caption" aria-label="Image caption">
+        </div>
+
+
+    </div>
+
+    <span class="credit" aria-label="Image credit">
+        
+        Courtesy of WBEZ
+        
+    </span>
+</div>
+   </div>
+   <p>Ever wonder how Rihanna became a music and fashion mogul? Or what it took for Serena Williams to rise to the pinnacle of tennis stardom? WBEZ's Making charts the origin stories of iconic Black figures, from drag artist RuPaul to late basketball great Kobe Bryant and more.<br/><a href="https://one.npr.org/i/1137332751:1137332753"><br/>Start listening.</a></p>   <h3 class="edTag"><a href="https://www.npr.org/podcasts/992401611/systemic">Systemic</a></h3>   <div id="res1145614208" class="bucketwrap image large">
+            <div
+    class="imagewrap has-source-dimensions"
+    data-crop-type=""
+    style="
+        --source-width: 1871;
+        --source-height: 938;
+    "
+>
+        <picture>
+            <source srcset="https://media.npr.org/assets/img/2022/12/27/cpr_custom-0e8984b9bcd7c76750de3324026b1353ca4de448-s400-c85.webp 400w,
+https://media.npr.org/assets/img/2022/12/27/cpr_custom-0e8984b9bcd7c76750de3324026b1353ca4de448-s600-c85.webp 600w,
+https://media.npr.org/assets/img/2022/12/27/cpr_custom-0e8984b9bcd7c76750de3324026b1353ca4de448-s800-c85.webp 800w,
+https://media.npr.org/assets/img/2022/12/27/cpr_custom-0e8984b9bcd7c76750de3324026b1353ca4de448-s900-c85.webp 900w,
+https://media.npr.org/assets/img/2022/12/27/cpr_custom-0e8984b9bcd7c76750de3324026b1353ca4de448-s1200-c85.webp 1200w,
+https://media.npr.org/assets/img/2022/12/27/cpr_custom-0e8984b9bcd7c76750de3324026b1353ca4de448-s1600-c85.webp 1600w,
+https://media.npr.org/assets/img/2022/12/27/cpr_custom-0e8984b9bcd7c76750de3324026b1353ca4de448-s1800-c85.webp 1800w"  sizes="(min-width: 1300px) 763px, (min-width: 1025px) calc(100vw - 496px), (min-width: 768px) calc(100vw - 171px), calc(100vw - 30px)" class="img" type="image/webp" />
+            <source srcset="https://media.npr.org/assets/img/2022/12/27/cpr_custom-0e8984b9bcd7c76750de3324026b1353ca4de448-s400-c85.jpg 400w,
+https://media.npr.org/assets/img/2022/12/27/cpr_custom-0e8984b9bcd7c76750de3324026b1353ca4de448-s600-c85.jpg 600w,
+https://media.npr.org/assets/img/2022/12/27/cpr_custom-0e8984b9bcd7c76750de3324026b1353ca4de448-s800-c85.jpg 800w,
+https://media.npr.org/assets/img/2022/12/27/cpr_custom-0e8984b9bcd7c76750de3324026b1353ca4de448-s900-c85.jpg 900w,
+https://media.npr.org/assets/img/2022/12/27/cpr_custom-0e8984b9bcd7c76750de3324026b1353ca4de448-s1200-c85.jpg 1200w,
+https://media.npr.org/assets/img/2022/12/27/cpr_custom-0e8984b9bcd7c76750de3324026b1353ca4de448-s1600-c85.jpg 1600w,
+https://media.npr.org/assets/img/2022/12/27/cpr_custom-0e8984b9bcd7c76750de3324026b1353ca4de448-s1800-c85.jpg 1800w"  sizes="(min-width: 1300px) 763px, (min-width: 1025px) calc(100vw - 496px), (min-width: 768px) calc(100vw - 171px), calc(100vw - 30px)" class="img" type="image/jpeg" />
+            <img src="https://media.npr.org/assets/img/2022/12/27/cpr_custom-0e8984b9bcd7c76750de3324026b1353ca4de448-s1100-c50.jpg"  class="img" alt="Podcast art" loading="lazy" />
+        </picture>
+</div>
+<div class="credit-caption">
+    <div class="caption-wrap">
+        <div class="caption" aria-label="Image caption">
+        </div>
+
+
+    </div>
+
+    <span class="credit" aria-label="Image credit">
+        
+        Courtesy of Colorado Public Radio
+        
+    </span>
+</div>
+   </div>
+   <p>Colorado Public Radio's Systemic uses interviews and audio diaries to document the lives of activists, civil rights attorneys, lawmakers and Black officers working to overhaul policing from within.<br/><br/>Once you're caught up, get ready for season 2 in January.<br/><br/><a href="https://one.npr.org/i/998293891:998293893">Start listening.</a><br/></p>   <h3 class="edTag"><a href="https://www.npr.org/podcasts/1123593061/overlooked">Overlooked</a></h3>   <div id="res1145606781" class="bucketwrap image large">
+            <div
+    class="imagewrap has-source-dimensions"
+    data-crop-type=""
+    style="
+        --source-width: 1760;
+        --source-height: 939;
+    "
+>
+        <picture>
+            <source srcset="https://media.npr.org/assets/img/2022/12/27/ezgif.com-gif-maker-1-_custom-098f484e56364217aa1f2dc239488153c55ba214-s400-c85.webp 400w,
+https://media.npr.org/assets/img/2022/12/27/ezgif.com-gif-maker-1-_custom-098f484e56364217aa1f2dc239488153c55ba214-s600-c85.webp 600w,
+https://media.npr.org/assets/img/2022/12/27/ezgif.com-gif-maker-1-_custom-098f484e56364217aa1f2dc239488153c55ba214-s800-c85.webp 800w,
+https://media.npr.org/assets/img/2022/12/27/ezgif.com-gif-maker-1-_custom-098f484e56364217aa1f2dc239488153c55ba214-s900-c85.webp 900w,
+https://media.npr.org/assets/img/2022/12/27/ezgif.com-gif-maker-1-_custom-098f484e56364217aa1f2dc239488153c55ba214-s1200-c85.webp 1200w,
+https://media.npr.org/assets/img/2022/12/27/ezgif.com-gif-maker-1-_custom-098f484e56364217aa1f2dc239488153c55ba214-s1600-c85.webp 1600w,
+https://media.npr.org/assets/img/2022/12/27/ezgif.com-gif-maker-1-_custom-098f484e56364217aa1f2dc239488153c55ba214-s1800-c85.webp 1800w"  sizes="(min-width: 1300px) 763px, (min-width: 1025px) calc(100vw - 496px), (min-width: 768px) calc(100vw - 171px), calc(100vw - 30px)" class="img" type="image/webp" />
+            <source srcset="https://media.npr.org/assets/img/2022/12/27/ezgif.com-gif-maker-1-_custom-098f484e56364217aa1f2dc239488153c55ba214-s400-c85.jpg 400w,
+https://media.npr.org/assets/img/2022/12/27/ezgif.com-gif-maker-1-_custom-098f484e56364217aa1f2dc239488153c55ba214-s600-c85.jpg 600w,
+https://media.npr.org/assets/img/2022/12/27/ezgif.com-gif-maker-1-_custom-098f484e56364217aa1f2dc239488153c55ba214-s800-c85.jpg 800w,
+https://media.npr.org/assets/img/2022/12/27/ezgif.com-gif-maker-1-_custom-098f484e56364217aa1f2dc239488153c55ba214-s900-c85.jpg 900w,
+https://media.npr.org/assets/img/2022/12/27/ezgif.com-gif-maker-1-_custom-098f484e56364217aa1f2dc239488153c55ba214-s1200-c85.jpg 1200w,
+https://media.npr.org/assets/img/2022/12/27/ezgif.com-gif-maker-1-_custom-098f484e56364217aa1f2dc239488153c55ba214-s1600-c85.jpg 1600w,
+https://media.npr.org/assets/img/2022/12/27/ezgif.com-gif-maker-1-_custom-098f484e56364217aa1f2dc239488153c55ba214-s1800-c85.jpg 1800w"  sizes="(min-width: 1300px) 763px, (min-width: 1025px) calc(100vw - 496px), (min-width: 768px) calc(100vw - 171px), calc(100vw - 30px)" class="img" type="image/jpeg" />
+            <img src="https://media.npr.org/assets/img/2022/12/27/ezgif.com-gif-maker-1-_custom-098f484e56364217aa1f2dc239488153c55ba214-s1100-c50.jpg"  class="img" alt="Cover art for Overlooked" loading="lazy" />
+        </picture>
+</div>
+<div class="credit-caption">
+    <div class="caption-wrap">
+        <div class="caption" aria-label="Image caption">
+        </div>
+
+
+    </div>
+
+    <span class="credit" aria-label="Image credit">
+        
+        Courtesy of KCUR
+        
+    </span>
+</div>
+   </div>
+   <p>Detective Roger Golubski spent decades terrorizing the Black residents of Kansas City, Kansas. It wasn't until the 2017 exoneration of Lamonte McIntyre – a man Golubski framed and sent to prison for 23 years – that the extent of the police department's corruption came to light.<br/><br/><a href="https://one.npr.org/i/1126685537:1126685539">Start listening. </a></p>   <h3 class="edTag"><a href="https://www.npr.org/podcasts/648710646/last-seen">Last Seen</a></h3>   <div id="res1145614661" class="bucketwrap image large">
+            <div
+    class="imagewrap has-source-dimensions"
+    data-crop-type=""
+    style="
+        --source-width: 1871;
+        --source-height: 938;
+    "
+>
+        <picture>
+            <source srcset="https://media.npr.org/assets/img/2022/12/27/last-seen_custom-fb7b36e458022d21a0cb9d5d116d49e2b01c329a-s400-c85.webp 400w,
+https://media.npr.org/assets/img/2022/12/27/last-seen_custom-fb7b36e458022d21a0cb9d5d116d49e2b01c329a-s600-c85.webp 600w,
+https://media.npr.org/assets/img/2022/12/27/last-seen_custom-fb7b36e458022d21a0cb9d5d116d49e2b01c329a-s800-c85.webp 800w,
+https://media.npr.org/assets/img/2022/12/27/last-seen_custom-fb7b36e458022d21a0cb9d5d116d49e2b01c329a-s900-c85.webp 900w,
+https://media.npr.org/assets/img/2022/12/27/last-seen_custom-fb7b36e458022d21a0cb9d5d116d49e2b01c329a-s1200-c85.webp 1200w,
+https://media.npr.org/assets/img/2022/12/27/last-seen_custom-fb7b36e458022d21a0cb9d5d116d49e2b01c329a-s1600-c85.webp 1600w,
+https://media.npr.org/assets/img/2022/12/27/last-seen_custom-fb7b36e458022d21a0cb9d5d116d49e2b01c329a-s1800-c85.webp 1800w"  sizes="(min-width: 1300px) 763px, (min-width: 1025px) calc(100vw - 496px), (min-width: 768px) calc(100vw - 171px), calc(100vw - 30px)" class="img" type="image/webp" />
+            <source srcset="https://media.npr.org/assets/img/2022/12/27/last-seen_custom-fb7b36e458022d21a0cb9d5d116d49e2b01c329a-s400-c85.jpg 400w,
+https://media.npr.org/assets/img/2022/12/27/last-seen_custom-fb7b36e458022d21a0cb9d5d116d49e2b01c329a-s600-c85.jpg 600w,
+https://media.npr.org/assets/img/2022/12/27/last-seen_custom-fb7b36e458022d21a0cb9d5d116d49e2b01c329a-s800-c85.jpg 800w,
+https://media.npr.org/assets/img/2022/12/27/last-seen_custom-fb7b36e458022d21a0cb9d5d116d49e2b01c329a-s900-c85.jpg 900w,
+https://media.npr.org/assets/img/2022/12/27/last-seen_custom-fb7b36e458022d21a0cb9d5d116d49e2b01c329a-s1200-c85.jpg 1200w,
+https://media.npr.org/assets/img/2022/12/27/last-seen_custom-fb7b36e458022d21a0cb9d5d116d49e2b01c329a-s1600-c85.jpg 1600w,
+https://media.npr.org/assets/img/2022/12/27/last-seen_custom-fb7b36e458022d21a0cb9d5d116d49e2b01c329a-s1800-c85.jpg 1800w"  sizes="(min-width: 1300px) 763px, (min-width: 1025px) calc(100vw - 496px), (min-width: 768px) calc(100vw - 171px), calc(100vw - 30px)" class="img" type="image/jpeg" />
+            <img src="https://media.npr.org/assets/img/2022/12/27/last-seen_custom-fb7b36e458022d21a0cb9d5d116d49e2b01c329a-s1100-c50.jpg"  class="img" alt="Podcast art" loading="lazy" />
+        </picture>
+</div>
+<div class="credit-caption">
+    <div class="caption-wrap">
+        <div class="caption" aria-label="Image caption">
+        </div>
+
+
+    </div>
+
+    <span class="credit" aria-label="Image credit">
+        
+        Courtesy of WBUR
+        
+    </span>
+</div>
+   </div>
+   <p>The latest season of WBUR's Last Seen features an eclectic collection of personal and public mysteries from tenacious storytellers who refuse to let them go unsolved. You'll explore not just what's gone missing, but also whether what's been lost can, or even should, be found.<br/><br/><a href="https://one.npr.org/i/1077291305:1077291310">Start listening. </a></p>   <aside id="ad-third-wrap" aria-label="advertisement">
+    
+
+    <div id="ad-third-Arts___Life" class="ad-third ad-config" data-ad-config='{"network":"\/6735\/","site":{"desktop":"NPRThird","mobile":"NPRMobileThird"},"zone":"Arts___Life","targets":{"testserver":"false","isPodcastEpisode":"false","storyId":"1145598590","agg":["1148220230","434975886"]},"location":"third","deferred":false,"isBetweenContent":true,"borderClass":"","overflowCount":null}'></div>
+
+</aside>
+   <h3 class="edTag"><a href="https://www.npr.org/podcasts/577471834/buried-truths">Buried Truths</a></h3>   <div id="res1145615559" class="bucketwrap image large">
+            <div
+    class="imagewrap has-source-dimensions"
+    data-crop-type=""
+    style="
+        --source-width: 1875;
+        --source-height: 938;
+    "
+>
+        <picture>
+            <source srcset="https://media.npr.org/assets/img/2022/12/27/wabe_custom-775059b74497749c9e0c4b6782cd495c4f86a336-s400-c85.webp 400w,
+https://media.npr.org/assets/img/2022/12/27/wabe_custom-775059b74497749c9e0c4b6782cd495c4f86a336-s600-c85.webp 600w,
+https://media.npr.org/assets/img/2022/12/27/wabe_custom-775059b74497749c9e0c4b6782cd495c4f86a336-s800-c85.webp 800w,
+https://media.npr.org/assets/img/2022/12/27/wabe_custom-775059b74497749c9e0c4b6782cd495c4f86a336-s900-c85.webp 900w,
+https://media.npr.org/assets/img/2022/12/27/wabe_custom-775059b74497749c9e0c4b6782cd495c4f86a336-s1200-c85.webp 1200w,
+https://media.npr.org/assets/img/2022/12/27/wabe_custom-775059b74497749c9e0c4b6782cd495c4f86a336-s1600-c85.webp 1600w,
+https://media.npr.org/assets/img/2022/12/27/wabe_custom-775059b74497749c9e0c4b6782cd495c4f86a336-s1800-c85.webp 1800w"  sizes="(min-width: 1300px) 763px, (min-width: 1025px) calc(100vw - 496px), (min-width: 768px) calc(100vw - 171px), calc(100vw - 30px)" class="img" type="image/webp" />
+            <source srcset="https://media.npr.org/assets/img/2022/12/27/wabe_custom-775059b74497749c9e0c4b6782cd495c4f86a336-s400-c85.jpg 400w,
+https://media.npr.org/assets/img/2022/12/27/wabe_custom-775059b74497749c9e0c4b6782cd495c4f86a336-s600-c85.jpg 600w,
+https://media.npr.org/assets/img/2022/12/27/wabe_custom-775059b74497749c9e0c4b6782cd495c4f86a336-s800-c85.jpg 800w,
+https://media.npr.org/assets/img/2022/12/27/wabe_custom-775059b74497749c9e0c4b6782cd495c4f86a336-s900-c85.jpg 900w,
+https://media.npr.org/assets/img/2022/12/27/wabe_custom-775059b74497749c9e0c4b6782cd495c4f86a336-s1200-c85.jpg 1200w,
+https://media.npr.org/assets/img/2022/12/27/wabe_custom-775059b74497749c9e0c4b6782cd495c4f86a336-s1600-c85.jpg 1600w,
+https://media.npr.org/assets/img/2022/12/27/wabe_custom-775059b74497749c9e0c4b6782cd495c4f86a336-s1800-c85.jpg 1800w"  sizes="(min-width: 1300px) 763px, (min-width: 1025px) calc(100vw - 496px), (min-width: 768px) calc(100vw - 171px), calc(100vw - 30px)" class="img" type="image/jpeg" />
+            <img src="https://media.npr.org/assets/img/2022/12/27/wabe_custom-775059b74497749c9e0c4b6782cd495c4f86a336-s1100-c50.jpg"  class="img" alt="Podcast art." loading="lazy" />
+        </picture>
+</div>
+<div class="credit-caption">
+    <div class="caption-wrap">
+        <div class="caption" aria-label="Image caption">
+        </div>
+
+
+    </div>
+
+    <span class="credit" aria-label="Image credit">
+        
+        Courtesy of WABE
+        
+    </span>
+</div>
+   </div>
+   <p>WABE's Buried Truths investigates racism in the American South. Prior seasons tell the story of Isaiah Nixon, who was killed for voting in 1948 (season one), A.C. Hall, who police shot in the back in 1962 because they mistakenly thought he was a thief (season two), and the story of how three white men chased Ahmaud Arbery to his death in 2020 (season three).<br/><br/><a href="https://one.npr.org/i/596926627:596926629">Catch up</a> before season three arrives in February. </p>   <div class="hr"><hr></div>   <p><em>NPR One is your one-stop source for news, stories and podcasts from your community and beyond. </em><a href="https://www.npr.org/app"><em>Learn more about NPR One here.</em></a></p>   <p class="contributors-text"><em>NPR One&#039;s Julian Ring, Jack Mitchell and Jessica Green produced this piece. KNKX&#039;s Will James, NHPR&#039;s Rebecca Lavoie, KPCC/LAist&#039;s Kristen Hayford, WBEZ&#039;s Brendan Banaszak, CPR&#039;s Brad Turner, KCUR&#039;s Gabe Rosenberg, WBUR&#039;s Nora Saks, Texas Public Radio&rsquo;s Dan Katz and KUOW&rsquo;s Michaela Gianotti Boyle all contributed to this piece.</em></p>
+</div>
+<div class="share-tools share-tools--secondary" aria-label="Share tools">
+      <ul>
+            <li class="share-tools__service share-tools__service--facebook"><button class="fbStory1145598590" data-share-facebook='{"storyId": 1145598590 }'  data-metrics='{"action":"Click Facebook","category":"Share Tools","label":"https:\/\/www.npr.org\/2022\/12\/27\/1145598590\/bingeable-podcasts-2022-npr"}'   data-metrics-ga4='{"category":"share","action":"share","clickName":"facebook"}' ><b class="share-tools__service-name">Facebook</b></button></li>
+      <li class="share-tools__service share-tools__service--twitter"><button class="story1145598590" data-share-twitter='{"storyId": 1145598590 }'  data-metrics='{"action":"Click Twitter","category":"Share Tools","label":"https:\/\/www.npr.org\/2022\/12\/27\/1145598590\/bingeable-podcasts-2022-npr"}'   data-metrics-ga4='{"category":"share","action":"share","clickName":"twitter"}' ><b class="share-tools__service-name">Twitter</b></button></li>
+      <li class="share-tools__service share-tools__service--flipboard"><button class="story1145598590" data-share-flipboard='{"storyId": 1145598590 }'  data-metrics='{"action":"Click Flipboard","category":"Share Tools","label":"https:\/\/www.npr.org\/2022\/12\/27\/1145598590\/bingeable-podcasts-2022-npr"}'   data-metrics-ga4='{"category":"share","action":"share","clickName":"flipboard"}' ><b class="share-tools__service-name">Flipboard</b></button></li>
+      <li class="share-tools__service share-tools__service--email"><button class='share-tools__email-link' data-story-id='1145598590'  data-metrics='{"action":"Click Email a Friend","category":"Share Tools","label":"https:\/\/www.npr.org\/2022\/12\/27\/1145598590\/bingeable-podcasts-2022-npr"}'   data-metrics-ga4='{"category":"share","action":"share","clickName":"email"}' ><b class="share-tools__service-name">Email</b></button></li>
+   </ul>
+</div>
+
+<!-- END CLASS="SHARE-TOOLS SHARE-TOOLS--SECONDARY" ARIA-LABEL="SHARE TOOLS" -->
+<div id="newsletter-acquisition-callout-data" data-newsletter="{&quot;newsletterId&quot;:&quot;news&quot;,&quot;title&quot;:&quot;Up First&quot;,&quot;marketingHeader&quot;:&quot;Sign Up For NPR&#039;s Up First Newsletter&quot;,&quot;frequency&quot;:&quot;every day&quot;,&quot;shortDescription&quot;:&quot;The stories you need to start your day, hand-picked for you every weekday. Plus, the best of NPR every Sunday.&quot;,&quot;stickyDescription&quot;:&quot;Sign up for the NPR&#039;s Up First newsletter for the latest headlines and unique stories from the NPR Network.&quot;,&quot;contentImage&quot;:&quot;https:\/\/media.npr.org\/assets\/img\/2023\/04\/03\/up-first-newsletter.png&quot;,&quot;staticMarkupDir&quot;:&quot;\/buckets\/topics\/header1001.html&quot;,&quot;brandingDir&quot;:&quot;\/branding\/sections\/news\/&quot;,&quot;brandingLink&quot;:&quot;https:\/\/www.npr.org\/sections\/news\/&quot;,&quot;organizationId&quot;:1,&quot;recaptchaSiteKey&quot;:&quot;6LfD6CYUAAAAAIBeUekwZ9KCjF4UyLFtu7NWNaEK&quot;}">
+   </div>
+
+<!-- END ID="NEWSLETTER-ACQUISITION-CALLOUT-DATA" DATA-NEWSLETTER="{&QUOT;NEWSLETTERID&QUOT;:&QUOT;NEWS&QUOT;,&QUOT;TITLE&QUOT;:&QUOT;UP FIRST&QUOT;,&QUOT;MARKETINGHEADER&QUOT;:&QUOT;SIGN UP FOR NPR&#039;S UP FIRST NEWSLETTER&QUOT;,&QUOT;FREQUENCY&QUOT;:&QUOT;EVERY DAY&QUOT;,&QUOT;SHORTDESCRIPTION&QUOT;:&QUOT;THE STORIES YOU NEED TO START YOUR DAY, HAND-PICKED FOR YOU EVERY WEEKDAY. PLUS, THE BEST OF NPR EVERY SUNDAY.&QUOT;,&QUOT;STICKYDESCRIPTION&QUOT;:&QUOT;SIGN UP FOR THE NPR&#039;S UP FIRST NEWSLETTER FOR THE LATEST HEADLINES AND UNIQUE STORIES FROM THE NPR NETWORK.&QUOT;,&QUOT;CONTENTIMAGE&QUOT;:&QUOT;HTTPS:\/\/MEDIA.NPR.ORG\/ASSETS\/IMG\/2023\/04\/03\/UP-FIRST-NEWSLETTER.PNG&QUOT;,&QUOT;STATICMARKUPDIR&QUOT;:&QUOT;\/BUCKETS\/TOPICS\/HEADER1001.HTML&QUOT;,&QUOT;BRANDINGDIR&QUOT;:&QUOT;\/BRANDING\/SECTIONS\/NEWS\/&QUOT;,&QUOT;BRANDINGLINK&QUOT;:&QUOT;HTTPS:\/\/WWW.NPR.ORG\/SECTIONS\/NEWS\/&QUOT;,&QUOT;ORGANIZATIONID&QUOT;:1,&QUOT;RECAPTCHASITEKEY&QUOT;:&QUOT;6LFD6CYUAAAAAIBEUEKWZ9KCJF4UYLFTU7NWNAEK&QUOT;}" -->
+<div id="callout-end-of-story-mount">
+   </div>
+
+<!-- END ID="CALLOUT-END-OF-STORY-MOUNT" -->
+<div id="callout-end-of-story-mount-piano-wrap" class="callout-end-of-story-mount-piano-wrap">
+      <div id="callout-end-of-story-mount-piano" class="callout-end-of-story-mount-piano">
+         </div>
+   
+<!-- END ID="CALLOUT-END-OF-STORY-MOUNT-PIANO" CLASS="CALLOUT-END-OF-STORY-MOUNT-PIANO" -->
+</div>
+
+<!-- END ID="CALLOUT-END-OF-STORY-MOUNT-PIANO-WRAP" CLASS="CALLOUT-END-OF-STORY-MOUNT-PIANO-WRAP" -->
+<aside id="end-of-story-recommendations-mount" class="recommended-stories" aria-label="recommended stories"></aside>
+<!-- END ID="END-OF-STORY-RECOMMENDATIONS-MOUNT" CLASS="RECOMMENDED-STORIES" ARIA-LABEL="RECOMMENDED STORIES" -->
+</article><header class="contentheader contentheader--two" data-metrics='{"category":"Culture"}' ></header><footer id="npr-footer" class="npr-footer" role="contentinfo" aria-label="NPR footer"><div class="npr-footer__content" data-metrics-category="Global Footer" data-metrics-label="Footer">
+    <div class="npr-footer__module-group">
+        <div class="npr-footer__module">
+            <h6 class="npr-footer__header">Read &amp; Listen</h6>
+
+            <ul>
+                <li class="npr-footer__item"><a href="/" data-metrics-action="Click Homepage">Home</a></li>
+                <li class="npr-footer__item"><a href="/sections/news/" data-metrics-action="Click News">News</a></li>
+                <li class="npr-footer__item"><a href="/sections/culture/" data-metrics-action="Click Culture">Culture</a></li>
+                <li class="npr-footer__item"><a href="/music/" data-metrics-action="Click Music">Music</a></li>
+                <li class="npr-footer__item"><a href="/podcasts-and-shows" data-metrics-action="click podcasts & shows">Podcasts &amp; Shows</a></li>
+            </ul>
+        </div>
+
+        <div class="npr-footer__module">
+            <h6 class="npr-footer__header">Connect</h6>
+
+            <ul>
+                <li class="npr-footer__item"><a href="/newsletters/" data-metrics-action="Click Newsletters">Newsletters</a></li>
+                <li class="npr-footer__item"><a href="https://www.facebook.com/NPR/" data-metrics-action="Click Facebook">Facebook</a></li>
+                <li class="npr-footer__item"><a href="https://twitter.com/NPR" data-metrics-action="Click Twitter">Twitter</a></li>
+                <li class="npr-footer__item"><a href="https://www.instagram.com/npr/" data-metrics-action="Click Instagram">Instagram</a></li>
+                <li class="npr-footer__item"><a href="/press/" data-metrics-action="Click Press">Press</a></li>
+                <li class="npr-footer__item"><a href="https://help.npr.org/contact/s/" data-metrics-action="Click Contact & Help">Contact & Help</a></li>
+            </ul>
+        </div>
+
+        <div class="npr-footer__module">
+            <h6 class="npr-footer__header">About NPR</h6>
+
+            <ul>
+                <li class="npr-footer__item"><a href="/about/" data-metrics-action="Click Overview">Overview</a></li>
+                <li class="npr-footer__item"><a href="/diversity/" data-metrics-action="Click Diversity">Diversity</a></li>
+                <li class="npr-footer__item"><a href="/about-npr/1136563345/accessibility" data-metrics-action="Click Accessibility">Accessibility</a></li>
+                <li class="npr-footer__item"><a href="/ethics/" data-metrics-action="Click Ethics">Ethics</a></li>
+                <li class="npr-footer__item"><a href="/about-npr/178660742/public-radio-finances" data-metrics-action="Click Finances">Finances</a></li>
+                <li class="npr-footer__item"><a href="/sections/publiceditor/" data-metrics-action="Click Public Editor">Public Editor</a></li>
+                <li class="npr-footer__item"><a href="/corrections/" data-metrics-action="Click Corrections">Corrections</a></li>
+            </ul>
+        </div>
+
+        <div class="npr-footer__module">
+            <h6 class="npr-footer__header">Get Involved</h6>
+
+            <ul>
+                <li class="npr-footer__item"><a href="/support/" data-metrics-action="Click Support Public Radio">Support Public Radio</a></li>
+                <li class="npr-footer__item"><a href="/about-npr/186948703/corporate-sponsorship" data-metrics-action="Click Sponsor NPR">Sponsor NPR</a></li>
+                <li class="npr-footer__item"><a href="/careers/" data-metrics-action="Click NPR Careers">NPR Careers</a></li>
+                <li class="npr-footer__item"><a href="https://shopnpr.org/" data-metrics-action="Click NPR Shop">NPR Shop</a></li>
+                <li class="npr-footer__item"><a href="https://www.nprpresents.org" data-metrics-action="Click NPR Events">NPR Events</a></li>
+                <li class="npr-footer__item"><a href="/sections/npr-extra/" data-metrics-action="Click NPR Extra">NPR Extra</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="npr-footer__module npr-footer__module--secondary">
+        <ul>
+            <li class="npr-footer__item"><a href="/about-npr/179876898/terms-of-use" data-metrics-action="Click Terms of Use">Terms of Use</a></li>
+            <li class="npr-footer__item"><a href="/about-npr/179878450/privacy-policy" data-metrics-action="Click Privacy">Privacy</a></li>
+            <li class="npr-footer__item"><a href="/about-npr/179878450/privacy-policy#yourchoices" data-metrics-action="Click Your Privacy Choices">Your Privacy Choices</a></li>
+            <li class="npr-footer__item"><a href="https://text.npr.org/" data-metrics-action="Click Text Only">Text Only</a></li>
+            <li class="npr-footer__item"><span class="copy-year"></span></li>
+        </ul>
+    </div>
+</div>
+</footer><div id="global-stickybar-mount" class="global-stickybar-mount">
+   </div>
+<div id="global-stickybar-mount-piano-wrap" class="global-stickybar">
+      <div id="global-stickybar-mount-piano" class="global-stickybar-mount-piano">
+         </div>
+</div>
+</section>   <div id="main-sidebar">
+            <aside id="ad-standard-wrap" aria-label="advertisement">
+    
+
+    <div id="ad-standard-Arts___Life" class="ad-standard ad-config" data-ad-config='{"network":"\/6735\/","site":{"desktop":"n6735.NPR","mobile":"n6735.NPRMOBILE"},"zone":"Arts___Life","targets":{"testserver":"false","isPodcastEpisode":"false","storyId":"1145598590","agg":["1148220230","434975886"]},"location":"standard","deferred":false,"isBetweenContent":false,"borderClass":"","overflowCount":null}'></div>
+    <p class="left">Sponsor Message</p><p class="right"><a href="/about-npr/186948703/corporate-sponsorship">Become an NPR sponsor</a></p>
+
+</aside>
+   </div>
+   
+<!-- END ID="MAIN-SIDEBAR" -->
+</div>
+
+<!-- END ID="WRAPPER" -->
+<section id="global-modal-mount"></section>
+<!-- END ID="GLOBAL-MODAL-MOUNT" -->
+<script type="text/javascript">
+   (function () {
+    var loadPageJs = function () { (window.webpackJsonp=window.webpackJsonp||[]).push([[19],{1100:function(e,n,c){e.exports=c(304)},304:function(e,n,c){"use strict";c.p=NPR.serverVars.webpackPublicPath,Promise.all([c.e(1),c.e(2),c.e(3),c.e(95),c.e(73)]).then(function(e){c(3),c(1074),c(46),c(105),c(30),c(169),c(125),c(64),c(66),c(1075),c(86),c(1076),c(297),c(1077),c(77)}.bind(null,c)).catch(c.oe)}},[[1100,0]]]); };
+    if (document.readyState === 'complete') {
+        loadPageJs();
+    } else {
+        window.addEventListener('load', function load() {
+            window.removeEventListener('load', load, false);
+            loadPageJs();
+        });
+    }
+})();
+</script>
+</main></body></html><!-- CACHED 1680565770 -->
