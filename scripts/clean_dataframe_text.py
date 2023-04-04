@@ -1,6 +1,6 @@
 # library imports
-from bs4 import BeautifulSoup
-import requests
+
+
 import json
 import unidecode
 import pandas as pd
@@ -9,7 +9,7 @@ import json
 import re
 import time
 from tqdm import tqdm
-import unidecode
+
 
 def convert_si_to_number(x):
     total_stars = 0

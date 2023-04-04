@@ -1,0 +1,7 @@
+unidecode
+sentence_transformers
+beautifulsoup4
+bs4
+nltk
+spacy
+requests
