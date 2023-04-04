@@ -4,13 +4,12 @@
 
 >![img.jpg](assets/duke360.jpeg)
 
-# Background
+## Background
 placeholder 
 
-# Installation instructions
+## Installation instructions
 placeholder
 
-# Dataset
+## Dataset
 placeholder
 
-# 
