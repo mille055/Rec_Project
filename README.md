@@ -2,7 +2,7 @@
 ## Project for AIPI540
 ## Team members: Shen, Chad, Zenan
 
->![img.jpg](assets/best_data-science-podcasts.jpeg)
+>![img.jpg](assets/bestdspods.jpg)
 
 ## Background
 placeholder 
