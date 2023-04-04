@@ -8,7 +8,13 @@
 placeholder 
 
 ## Installation instructions
-placeholder
+
+To prepare for the code in the repo, first install the required modules using:
+
+```
+pip install -r requirements.txt
+```
+
 
 ## Dataset
 placeholder
