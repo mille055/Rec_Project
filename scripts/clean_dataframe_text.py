@@ -72,13 +72,13 @@ def clean_text(text):
     text = unidecode.unidecode(text)
     text = text.replace('\n', ' ')
     # Remove URLs
-    text = re.sub(r'http\S+|www\S+|https\S+', '', text, flags=re.MULTILINE)
+    text = re.sub(r'http\S+|www\S+|https\S+', ' ', text, flags=re.MULTILINE)
     
     # Remove "Sponsored by" phrases
-    text = re.sub(r'(?i)sponsored\sby\s\w+', '', text)
+    text = re.sub(r'(?i)sponsored\sby\s\w+', ' ', text)
     
     # Remove special characters and symbols (excluding spaces)
-    text = re.sub(r'[^a-zA-Z0-9.,!?;:\s]', '', text)
+    text = re.sub(r'[^a-zA-Z0-9.,!?;:\s]', ' ', text)
     text = text.lower()
     text = text.strip()
     
