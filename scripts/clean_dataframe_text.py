@@ -78,7 +78,7 @@ def clean_text(text):
     text = re.sub(r'(?i)sponsored\sby\s\w+', ' ', text)
     
     # Remove special characters and symbols (excluding spaces)
-    text = re.sub(r'[^a-zA-Z0-9.,!?;:\s]', ' ', text)
+    text = re.sub(r'[^a-zA-Z0-9.,!?;:\'\s]', ' ', text)
     text = text.lower()
     text = text.strip()
     
