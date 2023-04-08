@@ -65,7 +65,7 @@ def clean_title(t):
 #     return d
 
 def clean_description_list(dlist):
-     '''
+    '''
     Cleans the text of the episode_descriptions column which is a list of strings
     Input: 
         dlist(list of str): text that may have special characters, etc
