@@ -66,7 +66,7 @@ def prepare_df(df):
 
 
 # Create embeddings for given cols (such as description, episode descriptions, genre)
-def create_embeddings(df, cols, verbose=True, picklish = False):
+def create_embeddings(df, cols = ['genre', 'description', 'episode_descriptions'], verbose=True, picklish = False):
   '''
   Uses a sentence transformer model (from the config) to get embeddings for the
   text in the provided columns. The dataframe should have been previously cleaned with

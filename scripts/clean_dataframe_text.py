@@ -74,8 +74,9 @@ def clean_description_list(dlist):
     '''
     new_string = ""
     for d in dlist:
-      d = clean_text(d)
-      new_string = new_string + " " + d
+        d = clean_text(d)
+        new_string = new_string + " " + d
+    
     return new_string
 
 
@@ -125,3 +126,13 @@ def join_and_clean_text(string_list, separator=" "):
     cleaned_text = clean_text(single_text)
 
     return cleaned_text
+
+## apply the functions above to the dataframe
+def clean_dataframe(df):
+    df1=df.copy()
+
+     # clean the podcast dataframe
+    df1.episode_descriptions = df1.episode_descriptions.apply(join_and_clean_text)
+    df1.description = df1.description.apply(clean_text)
+
+    return df1
