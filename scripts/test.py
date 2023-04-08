@@ -44,13 +44,18 @@ cs_episo = create_cosine_similarity(embeds, feats=['episode_descriptions_embeddi
 cs_gen_desc = create_cosine_similarity(embeds, feats=['genre_embedding', 'description_embedding'])
 
 # get train val sets
-X_train, y_train, X_val, y_val = create_train_val_datasets(example_df)
+X_train, X_val, y_train, y_val = create_train_val_datasets(example_df)
+print('X_train has shape: ', X_train.shape)
+print('X_train columns are: ', X_train.columns)
+print('X_val has shape: ', X_val.shape)
+print('X_val columns are: ', X_val.columns)
+
 
 #make similarity matrix to use from the choice of the cosine similarity numpy arrays above
 sim_matrix = pd.DataFrame(cs_gen_desc, columns=embeds.itunes_id,index=embeds.itunes_id)
 
 # calculate rmse for the validation set
-val_rmse = calculate_rmse(X_train, y_train, X_val, y_val, sim_matrix)
+val_rmse = calculate_rmse(X_train, X_val, y_train, y_val, sim_matrix)
 
 # Get recommendations for a random user
 user = example_df.iloc[100].user

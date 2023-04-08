@@ -76,9 +76,9 @@ def create_train_val_datasets(df):
     return X_train, X_val, y_train, y_val
 
 
-def calculate_rmse(X_train, y_train, X_val, y_val, simtable):
+def calculate_rmse(X_train, X_val, y_train, y_val, simtable):
     # Get the predicted ratings for each podcast in the validation set and calculate the RMSE
-    ratings_set = X_val.apply(lambda x: predict_rating(X_val,simtable,X_train, y_train ))
+    ratings_set = X_val.apply(lambda x: predict_rating(X_val,simtable,X_train, y_train ), axis=1)
 
     # Have many Nan so getting rid of those by creating dataframe and dropna
     df = pd.DataFrame({'ratings_set': ratings_set, 'y_val':y_val})
