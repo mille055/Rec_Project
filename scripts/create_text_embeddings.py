@@ -53,7 +53,7 @@ def prepare_df(df):
   Output:
     df_no_dups(dataframe): smaller dataframe with no user/rating  
   '''
-  df1= podcast_df.copy()
+  df1= df.copy()
   # get rid of duplicates based on itunes_id
   cols_drop_dup = ['itunes_id']
   df_no_dups = df1.drop_duplicates(subset=cols_drop_dup)
