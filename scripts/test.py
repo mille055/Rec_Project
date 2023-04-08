@@ -12,7 +12,7 @@ import pickle
 
 from sklearn.linear_model import LogisticRegression
 from sentence_transformers import SentenceTransformer
-import unidecode
+#import unidecode
 import sys
 import warnings
 warnings.filterwarnings('ignore')
