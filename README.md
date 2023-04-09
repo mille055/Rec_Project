@@ -24,11 +24,11 @@ Title: Title of the podcast
 Producer: Producer of the podcast
 Genre: 19 unique genres, including
 
-    Leisure',
-    'True Crime', 
-    'Business', 'Education', 'Society & Culture', 'Government', 'Health & Fitness','Sports', 'Kids & Family', 'Science', 'TV & Film', 'Comedy', 'Technology', 'Fiction','History', 'Religion & Spirituality', 'News', 'Arts', 'Music'
+    Leisure','True Crime', 'Business', 'Education', 'Society & Culture', 'Government', 'Health & Fitness','Sports', 'Kids & Family', 'Science', 'TV & Film', 'Comedy', 'Technology', 'Fiction','History', 'Religion & Spirituality', 'News', 'Arts', 'Music'
 
 For the ratings, the data was heavily skewed towards high ratings:
     
 
 >![img.png](assets/user_ratings_podcasts.png)
+
+Of note, we initially planned to use a large Kaggle dataset consisting of about 75K podcasts and over 5.6 million reviews in two separate json files, but the podcast_id identifiers did not match between the two (only about 30 common ids between the two sets of data), so we could not use this for the hybrid model we initially planned. Instead, we scraped the much smaller dataset ourselves as described above. 
