@@ -72,9 +72,9 @@ thisamerican_id = '1223767856'
 collegebball_id = '268800565'
 verge_id = '430333725'
 userA = pd.DataFrame({'user': 'A', 'itunes_id': [wait_id, superdatascience_id, thisamerican_id, collegebball_id, verge_id], 'rating': [4, 5, 4, 4, 5] })
-updated_df = append_new_user('A', userA['itunes_id'], userA['rating'], podcast_df)
-
-print(updated_df.tail(10))
+updated_df = append_new_user('A', userA['itunes_id'], userA['rating'], example_df)
+print(updated_df.loc[updated_df.user=='A'])
+#print(updated_df.tail(10))
 
 ## getting recommendations for the new user
 user = 'A'
