@@ -9,7 +9,7 @@ Podcasts are a great way to stay informed, become educated on a variety of topic
 
 ## Installation instructions
 
-To prepare for the code in the repo, first install the required modules using:
+To prepare for the code in the repo, first install the required packages using:
 
 ```
 pip install -r requirements.txt
@@ -32,3 +32,20 @@ For the ratings, the data was heavily skewed towards high ratings:
 >![img.png](assets/user_ratings_podcasts.png)
 
 Of note, we initially planned to use a large Kaggle dataset consisting of about 75K podcasts and over 5.6 million reviews in two separate json files, but the podcast_id identifiers did not match between the two (only about 30 common ids between the two sets of data), so we could not use this for the hybrid model we initially planned. Instead, we scraped the much smaller dataset ourselves as described above. 
+
+## Non-ML approach: TF-IDF
+
+
+
+
+## Content-based filtering
+We performed content-based filtering on podcast features in the podcast dataset. In particular, we used text embeddings of the 'genre', 'description', and 'episode_descriptions' columns to create similarity matrices using cosine similarity. The text from the description and the 'episode_descriptions' columns were first processed to exclude url links and special characters and other standard text preprocessing stemps such striping white spaces and changing to all lower case. The embeddings were performed using sentence transformers from ....
+
+
+
+
+
+## Hybrid model
+
+
+
