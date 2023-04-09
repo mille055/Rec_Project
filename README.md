@@ -22,14 +22,13 @@ The dataset is comprised of data that I scraped from the itunes podcast website 
 
 Title: Title of the podcast
 Producer: Producer of the podcast
-Genre: 19 unique genres, including 
-    Leisure','True Crime', 'Business', 'Education', 'Society & Culture', 'Government', 'Health & Fitness','Sports', 'Kids & Family', 'Science', 'TV & Film', 'Comedy', 'Technology', 'Fiction','History', 'Religion & Spirituality', 'News', 'Arts', 'Music'
+Genre: 19 unique genres, including
+
+    Leisure',
+    'True Crime', 
+    'Business', 'Education', 'Society & Culture', 'Government', 'Health & Fitness','Sports', 'Kids & Family', 'Science', 'TV & Film', 'Comedy', 'Technology', 'Fiction','History', 'Religion & Spirituality', 'News', 'Arts', 'Music'
 
 For the ratings, the data was heavily skewed towards high ratings:
-    5    35835
-    4     2237
-    3     2351
-    2     1955
-    1     4333
+    
 
 >![img.png](assets/user_ratings_podcasts.png)
