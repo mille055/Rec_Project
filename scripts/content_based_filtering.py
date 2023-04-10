@@ -42,7 +42,7 @@ def create_cosine_similarity(df, feats = ['genre_embedding', 'description_embedd
 
 # predicts rating based on a user-item pair, the cosine similarity matrix, and the training data
 def predict_rating(user_item_pair,simtable,X_train, y_train):
-     '''
+    '''
     Predicts the rating of the podcast for a selected user-item pair using the similarity matrix. It requires the 
     training dataset as well in the calculation. 
     Input: 
@@ -100,7 +100,7 @@ def predict_new_pair_rating(user,podcast,simtable,X_train, y_train):
     return most_similar_rating
 
 def create_train_val_datasets(df):
-     '''
+    '''
     Splits the dataframe into train and val datasets using sklearn train_test_split
     Input: 
         df(dataframe): data to be split
@@ -169,7 +169,7 @@ def generate_recommendations(user,simtable,df):
     return topratedpodcast_title, mostsim_podcasts
 
 def predict_new_pair_rating(user,podcast,simtable,X_train, y_train):
-     '''
+    '''
     Predicts the rating of the podcast for a selected user-item pair using the similarity matrix. It requires the 
     training dataset as well in the calculation. 
     Input: 
@@ -193,7 +193,7 @@ def predict_new_pair_rating(user,podcast,simtable,X_train, y_train):
 
 ## generates a set of new rows for the podcast df based on the input user dictionary
 def append_new_user(name, podcast_list, ratings, df):
-     '''
+    '''
     Adds new user info to the dataframe with a user name, list of podcasts and ratings
     Input: 
         name(str): the name of the user
