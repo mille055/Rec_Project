@@ -5,3 +5,9 @@ bs4
 nltk
 spacy
 requests
+numpy
+pandas
+scikit-learn
+matplotlib
+torch
+tqdm
