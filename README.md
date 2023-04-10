@@ -23,25 +23,25 @@ The dataset is comprised of data that we scraped from the itunes podcast website
 - Title: Title of the podcast
 - Producer: Producer of the podcast
 - Genre: 19 unique genres, including
-    - 'Leisure'
-    - 'True Crime'
-    -  'Business'
-    -  'Education'
-    -  'Society & Culture'
-    -  'Government'
-    -  'Health & Fitness'
-    -  'Sports'
-    -  'Kids & Family'
-    -  'Science'
-    -  'TV & Film'
-    -  'Comedy'
-    -  'Technology'
-    -  'Fiction'
-    -  'History'
-    -  'Religion & Spirituality'
-    -  'News'
-    -  'Arts'
-    -  'Music'
+    -  Leisure
+    -  True Crime
+    -  Business
+    -  Education
+    -  Society & Culture
+    -  Government
+    -  Health & Fitness
+    -  Sports
+    -  Kids & Family
+    -  Science
+    -  TV & Film
+    -  Comedy
+    -  Technology
+    -  Fiction
+    -  History
+    -  Religion & Spirituality
+    -  News
+    -  Arts
+    -  Music
 - Description: A text description of the overall podcast information
 - Num_episodes: Number of podcast episodes
 - Avg_rating: Average rating a on a scale of 1-5
