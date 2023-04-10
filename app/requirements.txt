@@ -1,0 +1,8 @@
+pandas==1.5.3
+numpy==1.24.2
+nltk==3.8.1
+PyQt5==5.12.3
+PyQtWebEngine==5.12.1
+scikit-learn==1.2.2
+st-star-rating==0.0.3
+streamlit==1.21.0
