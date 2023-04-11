@@ -123,14 +123,6 @@ def main():
     # Get cosine simlarity matrix between all podcasts based on embeddings
     cs_gen_desc = create_cosine_similarity(embeddings, feats=['genre_embedding', 'description_embedding'])
     sim_matrix = pd.DataFrame(cs_gen_desc, columns=embeddings.itunes_id, index=embeddings.itunes_id)
-    # Sample an initial list of podcasts based on popularity and genre for user selection to solve coldstart problem
-    if selected_genres:
-        coldstart_df = podcast_df[podcast_df['genre'].isin(selected_genres)].sort_values(by=['genre', 'avg_rating', 'num_reviews'], ascending=False).reset_index(drop=True)
-    else:
-        coldstart_df = podcast_df.sort_values(by=['genre', 'avg_rating', 'num_reviews'], ascending=False).reset_index(drop=True)
-    coldstart_df = pd.DataFrame(coldstart_df.groupby('genre').apply(lambda x: x.head(3))).reset_index(drop=True)
-    coldstart_df_select = coldstart_df.sample(n=20, random_state=rng, ignore_index=True)
-    coldstart_selected = []
     
     # Setup the Streamlit page
     st.set_page_config(page_title='Podcast Recommender 🎙️', layout='wide')
@@ -149,7 +141,15 @@ def main():
         name = st.text_input('Welcome! What\'s your name?') # Input text box for user's name
         selected_genres = st.multiselect('Select genres you want to include:', options=podcast_df['genre'].unique()) # Allow user to select genres
         submit = st.form_submit_button('Next') # Submit button to proceed to next section
-        
+    
+    # Sample an initial list of podcasts based on popularity and genre for user selection to solve coldstart problem
+    if selected_genres:
+        coldstart_df = podcast_df[podcast_df['genre'].isin(selected_genres)].sort_values(by=['genre', 'avg_rating', 'num_reviews'], ascending=False).reset_index(drop=True)
+    else:
+        coldstart_df = podcast_df.sort_values(by=['genre', 'avg_rating', 'num_reviews'], ascending=False).reset_index(drop=True)
+    coldstart_df = pd.DataFrame(coldstart_df.groupby('genre').apply(lambda x: x.head(20))).reset_index(drop=True)
+    coldstart_df_select = coldstart_df.sample(n=20, random_state=rng, ignore_index=True)
+    
     if submit and name is not None and not st.session_state.coldstart:
         st.session_state.name = name
         st.session_state.coldstart_df = coldstart_df_select.copy()
@@ -160,15 +160,18 @@ def main():
         
         # Function that stores selected podcasts upon clicking Next button
         def tally_selection():
-            for podcast in st.session_state.coldstart_df['itunes_id'].to_list():
-                if st.session_state[podcast]:
-                    coldstart_selected.append(podcast)
             st.session_state.coldstart = True
-            st.session_state['selections'] = coldstart_selected
+            coldstart_selected = [podcast for podcast in st.session_state.coldstart_df['itunes_id'].to_list() if st.session_state[podcast]]
+            if 0 < len(coldstart_selected) <= 5:
+                st.session_state['selections'] = coldstart_selected
+            elif len(coldstart_selected) == 0:
+                st.warning("Please select at least one podcast.")
+            else:
+                st.warning("Please select no more than 5 podcasts.")
 
         # Display in a grid a sample of popular podcasts that user can select from (re: coldstart problem)
         with coldstart.form(key='selections'):
-            st.subheader(f'Hi {st.session_state.name}! Select up to 5 podcasts that you (may) like:')
+            st.subheader(f'Hi {st.session_state.name}! Select up to 5 podcasts that you like:')
             grid = make_grid(4,5)
             for i in range(4):
                 for j in range(5):
@@ -179,15 +182,6 @@ def main():
                         st.checkbox("Select", key=itunes_id, label_visibility="hidden")
             
             submit_selections = st.form_submit_button('Next', on_click=tally_selection, use_container_width=True) # Button to proceed
-            if submit_selections:
-                coldstart_selected = [podcast for podcast in st.session_state.coldstart_df['itunes_id'].to_list() if st.session_state[podcast]]
-            if 0 < len(coldstart_selected) <= 5:
-                st.session_state.coldstart = True
-                st.session_state['selections'] = coldstart_selected
-            elif len(coldstart_selected) == 0:
-                st.warning("Please select at least one podcast.")
-            else:
-                st.warning("Please select no more than 5 podcasts.")
 
     if 'selections' in st.session_state and not st.session_state.ratings:
         # Clear out previous container
@@ -208,22 +202,23 @@ def main():
 
         with ratings.form(key='rating'):
             st.subheader("Now, rate the podcasts that you've selected:")
-            rows = 1 if num_selected_podcasts <= 5 else 2
+            rows = 1 #if num_selected_podcasts <= 5 else 2
             cols = min(5, num_selected_podcasts)
             grid = make_grid(rows, cols)
             idx=0
             for i in range(rows):
                 for j in range(cols):
-                    if idx < num_selected_podcasts:
-                        itunes_id = st.session_state['selections'][i*5+j]
-                        selection = st.session_state.coldstart_df[st.session_state.coldstart_df['itunes_id']==itunes_id]
-                        st.markdown(f"<a href='{selection['link'].values[0]}' style='color:#ffffff;text-decoration:none'><img src='{selection['image'].values[0]}' style='width:auto;height:auto;max-width:100%;' /></a>", unsafe_allow_html=True)
-                        st.markdown(f"<p style='font-size:18px;text-align:center;'>{selection['title'].values[0]}</p>", unsafe_allow_html=True, help=selection['description'].values[0])
-                        # Create star rating widget for each selected podcast
-                        st_star_rating("", maxValue=5, defaultValue=0, key=f"rating_{itunes_id}")
-                        idx += 1
-                    else: 
-                        break
+                    with grid[i][j]:
+                        if idx < num_selected_podcasts:
+                            itunes_id = st.session_state['selections'][i*5+j]
+                            selection = st.session_state.coldstart_df[st.session_state.coldstart_df['itunes_id']==itunes_id]
+                            st.markdown(f"<a href='{selection['link'].values[0]}' style='color:#ffffff;text-decoration:none'><img src='{selection['image'].values[0]}' style='width:auto;height:auto;max-width:100%;' /></a>", unsafe_allow_html=True)
+                            st.markdown(f"<p style='font-size:18px;text-align:center;'>{selection['title'].values[0]}</p>", unsafe_allow_html=True, help=selection['description'].values[0])
+                            # Create star rating widget for each selected podcast
+                            st_star_rating("", maxValue=5, defaultValue=0, key=f"rating_{itunes_id}")
+                            idx += 1
+                        else: 
+                            break
             submit_ratings = st.form_submit_button('Next', on_click=tally_ratings, use_container_width=True) # Button to proceed
     
     if 'scores' in st.session_state and not st.session_state.recs:
