@@ -124,7 +124,10 @@ def main():
     cs_gen_desc = create_cosine_similarity(embeddings, feats=['genre_embedding', 'description_embedding'])
     sim_matrix = pd.DataFrame(cs_gen_desc, columns=embeddings.itunes_id, index=embeddings.itunes_id)
     # Sample an initial list of podcasts based on popularity and genre for user selection to solve coldstart problem
-    coldstart_df = podcast_df[podcast_df['genre'].isin(selected_genres)].sort_values(by=['genre', 'avg_rating', 'num_reviews'], ascending=False).reset_index(drop=True)
+    if selected_genres:
+        coldstart_df = podcast_df[podcast_df['genre'].isin(selected_genres)].sort_values(by=['genre', 'avg_rating', 'num_reviews'], ascending=False).reset_index(drop=True)
+    else:
+        coldstart_df = podcast_df.sort_values(by=['genre', 'avg_rating', 'num_reviews'], ascending=False).reset_index(drop=True)
     coldstart_df = pd.DataFrame(coldstart_df.groupby('genre').apply(lambda x: x.head(3))).reset_index(drop=True)
     coldstart_df_select = coldstart_df.sample(n=20, random_state=rng, ignore_index=True)
     coldstart_selected = []
