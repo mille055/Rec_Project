@@ -65,10 +65,15 @@ python scripts/keyword_similarity.py --query <keywords> --k 10
 ```
 
 ## Content-based filtering
-We performed content-based filtering on podcast features in the podcast dataset. In particular, we used text embeddings of the `genre`, `description`, and `episode_descriptions` columns to create similarity matrices using cosine similarity. The text from the description and the `episode_descriptions` columns was first processed to exclude url links and special characters and other standard text preprocessing steps such striping white spaces and changing to all lower case. The embeddings were performed using pre-trained sentence transformers model using Siamese-BERT at HuggingFace (model `all-MiniLM-L6-v2`). Different combinations of the features (embedded text from the 3 columns) were investigated and the best results were obtained with the combination of the genre and overall podcast description. Performance is not as high as we would like, with a RMSE of 1.48 for predicting the rating (scale 1-5), possibly due to the small number of podcasts and ratings and the skewed distribution of user ratings.  
+We performed content-based filtering on podcast features in the podcast dataset. In particular, we used text embeddings of the `genre`, `description`, and `episode_descriptions` columns to create similarity matrices using cosine similarity. The text from the description and the `episode_descriptions` columns was first processed to exclude url links and special characters and other standard text preprocessing steps such striping white spaces and changing to all lower case. The embeddings were performed using pre-trained sentence transformers model using Siamese-BERT at HuggingFace (model `all-MiniLM-L6-v2`). Different combinations of the features (embedded text from the 3 columns) were investigated and the best results were obtained with the combination of the genre and overall podcast description. Performance is not as high as we would like, with a RMSE of 1.48 for predicting the rating (scale 1-5), possibly due to the small number of podcasts and ratings and the skewed distribution of user ratings. In terms of recommendation coverage, the content-based filtering approach achieved a coverage of 86.71% for 5 recommendations generated across all users.
+
+To check coverage, execute the script:
+```bash
+python scripts/content_coverage.py --k 5
+```
 
 ## Hybrid model
-We implemented a Hybrid Collaborative Filtering model based on the tutorial shared by Jon Reifschneider in his AIPI540 course. The hybrid model made use of features such as `user`, `genre`, `producer`, and `itunes_id` to create feature embeddings as part of a neural network model. The model is trained to predict the rating of a podcast. The Adam optimizer was used and the loss function was MSE. Training was done for 10-15 epochs. Despite comprehensive hyperparameter tuning, validation loss could not go any lower beyond 1.2. In several example runs, we observed a difference as low as 0.7 and as high as 2.5 between predicted rating and true rating. Similar to the predicament faced by the Content-based Filtering approach, this model's  performance may be attributed to the skewed distribution of user ratings where the vast majority of users had only rated 1 podcast and thus not ideal for collaborative filtering. Due to the excessive amount of compute time required for generating predictions across all the podcasts for a user, this model has not been deployed for demonstration.
+We implemented a Hybrid Collaborative Filtering model based on the tutorial shared by Jon Reifschneider in his AIPI540 course. The hybrid model made use of features such as `user`, `genre`, `producer`, and `itunes_id` to create feature embeddings as part of a neural network model. The model is trained to predict the rating of a podcast. The Adam optimizer was used and the loss function was MSE. Training was done for 10-15 epochs. Despite comprehensive hyperparameter tuning, validation loss could not go any lower beyond 1.2. Similar to the predicament faced by the Content-based Filtering approach, this model's  performance may be attributed to the skewed distribution of user ratings where the vast majority of users had only rated 1 podcast and thus not ideal for collaborative filtering. Due to the excessive amount of compute time required for generating predictions across all the podcasts for a user, this model has not been deployed for demonstration.
 
 To run this model locally, execute the script:
 ```bash
@@ -102,6 +107,7 @@ The demo app is hosted on Streamlit Cloud. [![Streamlit App](https://static.stre
 | | |____podcast_neon_banner.jpeg
 | |____pages
 | | |____Content_Filtering.py
+| | |____Content_Filtering_v2.py
 | | |____Keyword_Similarity.py
 |____requirements.txt
 |____README.md
@@ -111,6 +117,7 @@ The demo app is hosted on Streamlit Cloud. [![Streamlit App](https://static.stre
 | |____config.py
 | |____clean_dataframe_text.py
 | |____content_based_filtering.py
+| |____content_coverage.py
 | |____create_text_embeddings.py
 | |____test.py
 | |____keyword_similarity.py
