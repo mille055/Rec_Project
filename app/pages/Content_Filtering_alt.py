@@ -128,6 +128,37 @@ def main():
     st.set_page_config(page_title='Podcast Recommender 🎙️', layout='wide')
     st.title('Podcast Recommender 🎙️')
     st.markdown('Tell us some podcasts that you like and we will recommend some others to listen to!')
+
+    # Setup display style of podcast title text
+    st.markdown("""
+        <style>
+        .auto-resize-text {
+            display: inline-block;
+            font-size: 18px;
+            max-width: 100%;
+            line-height: 1.2;
+            height: 48px;
+        }
+        </style>
+        """, unsafe_allow_html=True)
+    st.markdown("""
+        <script>
+        function resizeText(element) {
+            let fontSize = parseFloat(window.getComputedStyle(element).fontSize);
+            while (element.scrollHeight > element.offsetHeight) {
+                fontSize -= 0.5;
+                element.style.fontSize = fontSize + 'px';
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            const elements = document.querySelectorAll(".auto-resize-text");
+            elements.forEach(function(element) {
+                resizeText(element);
+            });
+        });
+        </script>
+        """, unsafe_allow_html=True)
     
     # Initialize Streamlit session variables to manage control flow
     st.session_state.coldstart = False
@@ -178,7 +209,7 @@ def main():
                     with grid[i][j]:
                         itunes_id = st.session_state.coldstart_df['itunes_id'][i*5+j]
                         st.markdown(f"<a href='{st.session_state.coldstart_df['link'][i*5+j]}' style='color:#ffffff;text-decoration:none'><img src='{st.session_state.coldstart_df['image'][i*5+j]}' style='width:auto;height:auto;max-width:100%;' /></a>", unsafe_allow_html=True)
-                        st.markdown(f"<p style='font-size:18px;text-align:center;'>{st.session_state.coldstart_df['title'][i*5+j]}</p>", unsafe_allow_html=True, help=st.session_state.coldstart_df['description'][i*5+j])
+                        st.markdown(f"<div class='auto-resize-text'>{st.session_state.coldstart_df['title'][i*5+j]}</div>", unsafe_allow_html=True, help=st.session_state.coldstart_df['description'][i*5+j])
                         st.checkbox("Select", key=itunes_id, label_visibility="hidden")
             
             submit_selections = st.form_submit_button('Next', on_click=tally_selection, use_container_width=True) # Button to proceed
@@ -213,7 +244,7 @@ def main():
                             itunes_id = st.session_state['selections'][i*5+j]
                             selection = st.session_state.coldstart_df[st.session_state.coldstart_df['itunes_id']==itunes_id]
                             st.markdown(f"<a href='{selection['link'].values[0]}' style='color:#ffffff;text-decoration:none'><img src='{selection['image'].values[0]}' style='width:auto;height:auto;max-width:100%;' /></a>", unsafe_allow_html=True)
-                            st.markdown(f"<p style='font-size:18px;text-align:center;'>{selection['title'].values[0]}</p>", unsafe_allow_html=True, help=selection['description'].values[0])
+                            st.markdown(f"<div class='auto-resize-text'>{selection['title'].values[0]}</div>", unsafe_allow_html=True, help=selection['description'].values[0])
                             # Create star rating widget for each selected podcast
                             st_star_rating("", maxValue=5, defaultValue=0, key=f"rating_{itunes_id}")
                             idx += 1
@@ -254,7 +285,7 @@ def main():
                         itunes_id = podcastrecs[i*5+j][0]
                         podcast_rec = podcast_df[podcast_df['itunes_id']==itunes_id]
                         st.markdown(f"<a href='{podcast_rec['link'].values[0]}' style='color:#ffffff;text-decoration:none'><img src='{podcast_rec['image'].values[0]}' style='width:auto;height:auto;max-width:100%;' /></a>", unsafe_allow_html=True)
-                        st.markdown(f"<p style='font-size:18px;text-align:center;'>{podcast_rec['title'].values[0]}</p>", unsafe_allow_html=True, help=podcast_rec['description'].values[0])
+                        st.markdown(f"<div class='auto-resize-text'>{podcast_rec['title'].values[0]}</div>", unsafe_allow_html=True, help=podcast_rec['description'].values[0])
             
             reset_button = st.form_submit_button('Start Over', on_click=reset_session, use_container_width=True) # Button to start over
 
