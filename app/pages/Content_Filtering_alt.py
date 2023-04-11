@@ -192,19 +192,26 @@ def main():
             st.session_state.ratings = True
         
         # Display in a grid the selected podcasts so that user can rate them
+        num_selected_podcasts = len(st.session_state['selections'])
+
         with ratings.form(key='rating'):
-            st.subheader("Now, rate the 5 podcasts that you've selected:")
-            grid = make_grid(1,5)
-            for i in range(1):
-                for j in range(5):
-                    with grid[i][j]:
+            st.subheader("Now, rate the podcasts that you've selected:")
+            rows = 1 if num_selected_podcasts <= 5 else 2
+            cols = min(5, num_selected_podcasts)
+            grid = make_grid(rows, cols)
+            idx=0
+            for i in range(rows):
+                for j in range(cols):
+                    if idx < num_selected_podcasts:
                         itunes_id = st.session_state['selections'][i*5+j]
                         selection = st.session_state.coldstart_df[st.session_state.coldstart_df['itunes_id']==itunes_id]
                         st.markdown(f"<a href='{selection['link'].values[0]}' style='color:#ffffff;text-decoration:none'><img src='{selection['image'].values[0]}' style='width:auto;height:auto;max-width:100%;' /></a>", unsafe_allow_html=True)
                         st.markdown(f"<p style='font-size:18px;text-align:center;'>{selection['title'].values[0]}</p>", unsafe_allow_html=True, help=selection['description'].values[0])
                         # Create star rating widget for each selected podcast
                         st_star_rating("", maxValue=5, defaultValue=0, key=f"rating_{itunes_id}")
-            
+                        idx += 1
+                    else: 
+                        break
             submit_ratings = st.form_submit_button('Next', on_click=tally_ratings, use_container_width=True) # Button to proceed
     
     if 'scores' in st.session_state and not st.session_state.recs:
