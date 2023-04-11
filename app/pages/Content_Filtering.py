@@ -127,12 +127,42 @@ def main():
     coldstart_df = podcast_df.sort_values(by=['genre', 'avg_rating', 'num_reviews'], ascending=False).reset_index(drop=True)
     coldstart_df = pd.DataFrame(coldstart_df.groupby('genre').apply(lambda x: x.head(3))).reset_index(drop=True)
     coldstart_df_select = coldstart_df.sample(n=20, random_state=rng, ignore_index=True)
-    coldstart_selected = []
     
     # Setup the Streamlit page
     st.set_page_config(page_title='Podcast Recommender 🎙️', layout='wide')
     st.title('Podcast Recommender 🎙️')
     st.markdown('Tell us some podcasts that you like and we will recommend some others to listen to!')
+
+    # Setup display style of podcast title text
+    st.markdown("""
+        <style>
+        .auto-resize-text {
+            display: inline-block;
+            font-size: 18px;
+            max-width: 100%;
+            line-height: 1.2;
+            height: 48px;
+        }
+        </style>
+        """, unsafe_allow_html=True)
+    st.markdown("""
+        <script>
+        function resizeText(element) {
+            let fontSize = parseFloat(window.getComputedStyle(element).fontSize);
+            while (element.scrollHeight > element.offsetHeight) {
+                fontSize -= 0.5;
+                element.style.fontSize = fontSize + 'px';
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            const elements = document.querySelectorAll(".auto-resize-text");
+            elements.forEach(function(element) {
+                resizeText(element);
+            });
+        });
+        </script>
+        """, unsafe_allow_html=True)
     
     # Initialize Streamlit session variables to manage control flow
     st.session_state.coldstart = False
@@ -156,22 +186,25 @@ def main():
         
         # Function that stores selected podcasts upon clicking Next button
         def tally_selection():
-            for podcast in st.session_state.coldstart_df['itunes_id'].to_list():
-                if st.session_state[podcast]:
-                    coldstart_selected.append(podcast)
             st.session_state.coldstart = True
-            st.session_state['selections'] = coldstart_selected
+            coldstart_selected = [podcast for podcast in st.session_state.coldstart_df['itunes_id'].to_list() if st.session_state[podcast]]
+            if 0 < len(coldstart_selected) <= 5:
+                st.session_state['selections'] = coldstart_selected
+            elif len(coldstart_selected) == 0:
+                st.warning("Please select at least one podcast.")
+            else:
+                st.warning("Please select no more than 5 podcasts.")
 
         # Display in a grid a sample of popular podcasts that user can select from (re: coldstart problem)
         with coldstart.form(key='selections'):
-            st.subheader(f'Hi {st.session_state.name}! Select 5 podcasts that you (may) like:')
+            st.subheader(f'Hi {st.session_state.name}! Select 5 podcasts that you like:')
             grid = make_grid(4,5)
             for i in range(4):
                 for j in range(5):
                     with grid[i][j]:
                         itunes_id = st.session_state.coldstart_df['itunes_id'][i*5+j]
                         st.markdown(f"<a href='{st.session_state.coldstart_df['link'][i*5+j]}' style='color:#ffffff;text-decoration:none'><img src='{st.session_state.coldstart_df['image'][i*5+j]}' style='width:auto;height:auto;max-width:100%;' /></a>", unsafe_allow_html=True)
-                        st.markdown(f"<p style='font-size:18px;text-align:center;'>{st.session_state.coldstart_df['title'][i*5+j]}</p>", unsafe_allow_html=True, help=st.session_state.coldstart_df['description'][i*5+j])
+                        st.markdown(f"<div class='auto-resize-text'>{st.session_state.coldstart_df['title'][i*5+j]}</div>", unsafe_allow_html=True, help=st.session_state.coldstart_df['description'][i*5+j])
                         st.checkbox("Select", key=itunes_id, label_visibility="hidden")
             
             submit_selections = st.form_submit_button('Next', on_click=tally_selection, use_container_width=True) # Button to proceed
@@ -191,18 +224,27 @@ def main():
             st.session_state.ratings = True
         
         # Display in a grid the selected podcasts so that user can rate them
+        num_selected_podcasts = len(st.session_state['selections'])
+
         with ratings.form(key='rating'):
             st.subheader("Now, rate the 5 podcasts that you've selected:")
-            grid = make_grid(1,5)
-            for i in range(1):
-                for j in range(5):
+            rows = 1
+            cols = min(5, num_selected_podcasts)
+            grid = make_grid(rows, cols)
+            idx = 0
+            for i in range(rows):
+                for j in range(cols):
                     with grid[i][j]:
-                        itunes_id = st.session_state['selections'][i*5+j]
-                        selection = st.session_state.coldstart_df[st.session_state.coldstart_df['itunes_id']==itunes_id]
-                        st.markdown(f"<a href='{selection['link'].values[0]}' style='color:#ffffff;text-decoration:none'><img src='{selection['image'].values[0]}' style='width:auto;height:auto;max-width:100%;' /></a>", unsafe_allow_html=True)
-                        st.markdown(f"<p style='font-size:18px;text-align:center;'>{selection['title'].values[0]}</p>", unsafe_allow_html=True, help=selection['description'].values[0])
-                        # Create star rating widget for each selected podcast
-                        st_star_rating("", maxValue=5, defaultValue=0, key=f"rating_{itunes_id}")
+                        if idx < num_selected_podcasts:
+                            itunes_id = st.session_state['selections'][i*cols+j]
+                            selection = st.session_state.coldstart_df[st.session_state.coldstart_df['itunes_id']==itunes_id]
+                            st.markdown(f"<a href='{selection['link'].values[0]}' style='color:#ffffff;text-decoration:none'><img src='{selection['image'].values[0]}' style='width:auto;height:auto;max-width:100%;' /></a>", unsafe_allow_html=True)
+                            st.markdown(f"<div class='auto-resize-text'>{selection['title'].values[0]}</div>", unsafe_allow_html=True, help=selection['description'].values[0])
+                            # Create star rating widget for each selected podcast
+                            st_star_rating("", maxValue=5, defaultValue=0, key=f"rating_{itunes_id}")
+                            idx += 1
+                        else: 
+                            break
             
             submit_ratings = st.form_submit_button('Next', on_click=tally_ratings, use_container_width=True) # Button to proceed
     
@@ -239,7 +281,7 @@ def main():
                         itunes_id = podcastrecs[i*5+j][0]
                         podcast_rec = podcast_df[podcast_df['itunes_id']==itunes_id]
                         st.markdown(f"<a href='{podcast_rec['link'].values[0]}' style='color:#ffffff;text-decoration:none'><img src='{podcast_rec['image'].values[0]}' style='width:auto;height:auto;max-width:100%;' /></a>", unsafe_allow_html=True)
-                        st.markdown(f"<p style='font-size:18px;text-align:center;'>{podcast_rec['title'].values[0]}</p>", unsafe_allow_html=True, help=podcast_rec['description'].values[0])
+                        st.markdown(f"<div class='auto-resize-text'>{podcast_rec['title'].values[0]}</div>", unsafe_allow_html=True, help=podcast_rec['description'].values[0])
             
             reset_button = st.form_submit_button('Start Over', on_click=reset_session, use_container_width=True) # Button to start over
 

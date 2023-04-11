@@ -233,15 +233,15 @@ def main():
 
         with ratings.form(key='rating'):
             st.subheader("Now, rate the podcasts that you've selected:")
-            rows = 1 #if num_selected_podcasts <= 5 else 2
+            rows = 1
             cols = min(5, num_selected_podcasts)
             grid = make_grid(rows, cols)
-            idx=0
+            idx = 0
             for i in range(rows):
                 for j in range(cols):
                     with grid[i][j]:
                         if idx < num_selected_podcasts:
-                            itunes_id = st.session_state['selections'][i*5+j]
+                            itunes_id = st.session_state['selections'][i*cols+j]
                             selection = st.session_state.coldstart_df[st.session_state.coldstart_df['itunes_id']==itunes_id]
                             st.markdown(f"<a href='{selection['link'].values[0]}' style='color:#ffffff;text-decoration:none'><img src='{selection['image'].values[0]}' style='width:auto;height:auto;max-width:100%;' /></a>", unsafe_allow_html=True)
                             st.markdown(f"<div class='auto-resize-text'>{selection['title'].values[0]}</div>", unsafe_allow_html=True, help=selection['description'].values[0])
@@ -250,6 +250,7 @@ def main():
                             idx += 1
                         else: 
                             break
+            
             submit_ratings = st.form_submit_button('Next', on_click=tally_ratings, use_container_width=True) # Button to proceed
     
     if 'scores' in st.session_state and not st.session_state.recs:
