@@ -165,7 +165,7 @@ def main():
 
         # Display in a grid a sample of popular podcasts that user can select from (re: coldstart problem)
         with coldstart.form(key='selections'):
-            st.subheader(f'Hi {st.session_state.name}! Select 5 podcasts that you (may) like:')
+            st.subheader(f'Hi {st.session_state.name}! Select up to 5 podcasts that you (may) like:')
             grid = make_grid(4,5)
             for i in range(4):
                 for j in range(5):
@@ -176,7 +176,16 @@ def main():
                         st.checkbox("Select", key=itunes_id, label_visibility="hidden")
             
             submit_selections = st.form_submit_button('Next', on_click=tally_selection, use_container_width=True) # Button to proceed
-    
+            if submit_selections:
+                coldstart_selected = [podcast for podcast in st.session_state.coldstart_df['itunes_id'].to_list() if st.session_state[podcast]]
+            if 0 < len(coldstart_selected) <= 5:
+                st.session_state.coldstart = True
+                st.session_state['selections'] = coldstart_selected
+            elif len(coldstart_selected) == 0:
+                st.warning("Please select at least one podcast.")
+            else:
+                st.warning("Please select no more than 5 podcasts.")
+
     if 'selections' in st.session_state and not st.session_state.ratings:
         # Clear out previous container
         placeholder.empty()
